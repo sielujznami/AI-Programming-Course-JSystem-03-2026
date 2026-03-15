@@ -22,6 +22,7 @@ Po Day 3 uczestnicy mają:
 - Dzień następny: `materials/scripts/day-4-script.md`
 - Referencja modułu terminalowego: `materials/references/wezterm-mini-module.md`
 - Referencja modułu bezpieczeństwa: `materials/references/sandbox-safety-module.md`
+- Referencja modułu głosowego (opcjonalnie): `materials/references/handy-computer-mini-module.md`
 
 ## Agenda dnia
 - 09:00–09:20 — Handoff z Day 2 i plan budowy na dziś
@@ -325,12 +326,13 @@ W pracy najwięcej czasu znika nie na napisanie happy path, ale na znalezienie, 
 ### Co mówię
 "Core naszego kursu pozostaje prosty: Codex-first. To jest świadoma decyzja, żeby nie rozproszyć grupy. Ale uczciwie pokazujemy też, gdzie inne narzędzia mogą być sensowne jako uzupełnienie, a nie nowa religia technologiczna."
 
-"Claude Code warto pokazać krótko wtedy, gdy chcemy porównać styl planowania, wyjaśniania lub pracy z dłuższą narracją. IntelliJ AI Assistant ma sens jako przykład dla zespołów mocno osadzonych w IDE JetBrains, zwłaszcza jeśli ktoś chce zostać bliżej codziennego środowiska pracy. Dodatkowo robimy szybki mikro‑moduł WezTerm: kiedy pomaga bardziej niż Windows Terminal w sesjach TUI i powiadomieniach. Pokazujemy to krótko, rzeczowo i wracamy do głównego toru."
+"Claude Code warto pokazać krótko wtedy, gdy chcemy porównać styl planowania, wyjaśniania lub pracy z dłuższą narracją. IntelliJ AI Assistant ma sens jako przykład dla zespołów mocno osadzonych w IDE JetBrains, zwłaszcza jeśli ktoś chce zostać bliżej codziennego środowiska pracy. Dodatkowo robimy szybki mikro‑moduł WezTerm: kiedy pomaga bardziej niż Windows Terminal w sesjach TUI i powiadomieniach. Jeśli grupa tego potrzebuje, dorzucamy też 3–5 min opcjonalny mikro‑moduł Handy.computer (voice→tekst, transkrypcja i tłumaczenie) bez zmiany głównego workflow. Pokazujemy to krótko, rzeczowo i wracamy do głównego toru."
 
 ### Co pokazuję
 - Jedną tabelę porównawczą: Codex jako workflow główny, Claude Code i IntelliJ jako opcjonalny kontekst.
 - 2–3 min mikro‑moduł WezTerm wg `materials/references/wezterm-mini-module.md`: TUI UX, splity, powiadomienia i kiedy nie warto zmieniać terminala.
 - Konkretne kryteria: kiedy narzędzie pomaga, a kiedy tylko zwiększa tool sprawl.
+- Opcjonalny mikro‑moduł Handy.computer wg `materials/references/handy-computer-mini-module.md`: kiedy pokazać, okno instalacyjne 5–8 min, 2 prompty głosowe (transkrypcja + tłumaczenie), fallback dla słabszych VM/laptopów.
 - 2-min przypomnienie bezpiecznych defaultów z `materials/references/sandbox-safety-module.md` (sandbox vs no-sandbox, WSL != izolacja, bash vs PowerShell).
 
 ### Co wklejam na chat
@@ -340,6 +342,7 @@ Krótka zasada narzędziowa:
 - Claude Code = krótki punkt porównawczy,
 - IntelliJ AI Assistant = opcja dla zespołów IDE-first,
 - WezTerm = opcjonalna ergonomia terminala (TUI/splity/powiadomienia),
+- Handy.computer = opcjonalny voice workflow (transkrypcja + tłumaczenie),
 - nie uczymy 5 narzędzi naraz, bo celem jest metodyka, nie kolekcjonowanie ikonek.
 ```
 

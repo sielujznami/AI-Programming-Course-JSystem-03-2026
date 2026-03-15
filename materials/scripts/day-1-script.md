@@ -22,6 +22,7 @@ Po Day 1 uczestnicy mają:
 - Materiał zbiorczy do wrzutek na czat: `prompts/02-module-prompts.md`
 - Referencja modułu terminalowego: `materials/references/wezterm-mini-module.md`
 - Referencja modułu bezpieczeństwa: `materials/references/sandbox-safety-module.md`
+- Referencja modułu głosowego (opcjonalnie): `materials/references/handy-computer-mini-module.md`
 
 ## Agenda dnia
 - 09:00–09:20 — Zoom onboarding + zasady pracy
