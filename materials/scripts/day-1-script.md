@@ -20,6 +20,7 @@ Po Day 1 uczestnicy mają:
 - Scenariusz demo na dziś: `materials/04-demo-scenarios.md#scenariusz-a--junior-dev-który-boi-się-zepsuć-produkcję`
 - Failure scenario na dziś: `materials/04-demo-scenarios.md#f4--prompt-zbyt-ogólny-chaotyczna-odpowiedź`
 - Materiał zbiorczy do wrzutek na czat: `prompts/02-module-prompts.md`
+- Referencja modułu terminalowego: `materials/references/wezterm-mini-module.md`
 
 ## Agenda dnia
 - 09:00–09:20 — Zoom onboarding + zasady pracy
@@ -35,7 +36,7 @@ Po Day 1 uczestnicy mają:
 - 13:30–14:15 — Pierwszy widoczny artefakt repo
 - 14:15–14:30 — Review loop: generated draft ≠ truth
 - 14:30–14:40 — OPCJONALNA PRZERWA
-- 14:40–15:20 — Flow pracy bez tarcia: ergonomia terminala i rytm pracy
+- 14:40–15:20 — Dedykowany mini‑moduł WezTerm: ergonomia terminala, powiadomienia i TUI UX
 - 15:20–15:45 — Bonus opcjonalny: Handy.computer teaser
 - 15:45–16:00 — Podsumowanie dnia (bez obowiązkowej pracy domowej)
 
@@ -356,7 +357,7 @@ Po Day 1 uczestnicy mają:
 
 ## 14:30–14:40 — OPCJONALNA PRZERWA
 
-## 14:40–15:20 — Flow pracy bez tarcia: ergonomia terminala i rytm pracy
+## 14:40–15:20 — Dedykowany mini‑moduł WezTerm: ergonomia terminala, powiadomienia i TUI UX
 ### Why this matters in daily work
 - Nawet dobry agent workflow boli, jeśli obsługa środowiska jest męcząca i zbyt krucha.
 - Ergonomia wpływa na to, czy ludzie naprawdę wdrożą workflow po szkoleniu.
@@ -368,11 +369,11 @@ Po Day 1 uczestnicy mają:
 
 ### Co pokazuję
 - Krótkie demo ergonomii pracy terminal-first.
-- Gdzie WezTerm bywa wygodniejszy od Windows Terminal dla agentowych TUI i powiadomień.
+- 5-min porównanie WezTerm vs Windows Terminal na podstawie `materials/references/wezterm-mini-module.md` (splity, TUI, powiadomienia, stabilność sesji).
 - Jak utrzymać prosty, przewidywalny setup zamiast tool sprawl.
 
 ### Co wklejam na chat
-- `Cel: mniej tarcia, więcej powtarzalności. Wybieramy środowisko, które pomaga pracować z agentem spokojnie i przewidywalnie.`
+- `WezTerm nie jest obowiązkowy. Pokazujemy go, bo często lepiej znosi TUI/splity/powiadomienia przy dłuższej pracy z agentami. Jeśli Twój obecny terminal działa stabilnie — zostajesz przy nim.`
 
 ### Ćwiczenie
 - Core: uczestnicy identyfikują 1 element swojego setupu, który najbardziej ich spowalnia.

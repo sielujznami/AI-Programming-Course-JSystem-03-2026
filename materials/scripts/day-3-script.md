@@ -20,6 +20,7 @@ Po Day 3 uczestnicy mają:
 - Failure scenario na dziś: `materials/04-demo-scenarios.md#f1--halucynacja-apifeature`
 - Dzień poprzedni: `materials/scripts/day-2-script.md`
 - Dzień następny: `materials/scripts/day-4-script.md`
+- Referencja modułu terminalowego: `materials/references/wezterm-mini-module.md`
 
 ## Agenda dnia
 - 09:00–09:20 — Handoff z Day 2 i plan budowy na dziś
@@ -30,7 +31,7 @@ Po Day 3 uczestnicy mają:
 - 12:05–13:00 — Pętla bezpiecznej iteracji: diff, test, poprawka, commit
 - 13:00–13:30 — Przerwa obiadowa
 - 13:30–14:20 — Debugging z AI: diagnoza błędów bez utraty kontroli
-- 14:20–14:30 — Krótkie porównanie: kiedy pokazać Claude Code lub IntelliJ AI Assistant
+- 14:20–14:30 — Krótkie porównanie: Codex vs Claude vs IntelliJ + mikro‑moduł WezTerm
 - 14:30–14:40 — Opcjonalna krótka przerwa
 - 14:40–15:25 — Refaktoryzacja i porządkowanie kodu pod Day 4
 - 15:25–16:00 — Demo postępu, decyzje architektoniczne i handoff do Day 4
@@ -318,15 +319,16 @@ W pracy najwięcej czasu znika nie na napisanie happy path, ale na znalezienie, 
 
 ---
 
-## 14:20–14:30 — Krótkie porównanie: kiedy pokazać Claude Code lub IntelliJ AI Assistant
+## 14:20–14:30 — Krótkie porównanie: Codex vs Claude vs IntelliJ + mikro‑moduł WezTerm
 
 ### Co mówię
 "Core naszego kursu pozostaje prosty: Codex-first. To jest świadoma decyzja, żeby nie rozproszyć grupy. Ale uczciwie pokazujemy też, gdzie inne narzędzia mogą być sensowne jako uzupełnienie, a nie nowa religia technologiczna."
 
-"Claude Code warto pokazać krótko wtedy, gdy chcemy porównać styl planowania, wyjaśniania lub pracy z dłuższą narracją. IntelliJ AI Assistant ma sens jako przykład dla zespołów mocno osadzonych w IDE JetBrains, zwłaszcza jeśli ktoś chce zostać bliżej codziennego środowiska pracy. Pokazujemy to krótko, rzeczowo i wracamy do głównego toru."
+"Claude Code warto pokazać krótko wtedy, gdy chcemy porównać styl planowania, wyjaśniania lub pracy z dłuższą narracją. IntelliJ AI Assistant ma sens jako przykład dla zespołów mocno osadzonych w IDE JetBrains, zwłaszcza jeśli ktoś chce zostać bliżej codziennego środowiska pracy. Dodatkowo robimy szybki mikro‑moduł WezTerm: kiedy pomaga bardziej niż Windows Terminal w sesjach TUI i powiadomieniach. Pokazujemy to krótko, rzeczowo i wracamy do głównego toru."
 
 ### Co pokazuję
 - Jedną tabelę porównawczą: Codex jako workflow główny, Claude Code i IntelliJ jako opcjonalny kontekst.
+- 2–3 min mikro‑moduł WezTerm wg `materials/references/wezterm-mini-module.md`: TUI UX, splity, powiadomienia i kiedy nie warto zmieniać terminala.
 - Konkretne kryteria: kiedy narzędzie pomaga, a kiedy tylko zwiększa tool sprawl.
 
 ### Co wklejam na chat
@@ -335,6 +337,7 @@ Krótka zasada narzędziowa:
 - Codex = główny workflow kursu,
 - Claude Code = krótki punkt porównawczy,
 - IntelliJ AI Assistant = opcja dla zespołów IDE-first,
+- WezTerm = opcjonalna ergonomia terminala (TUI/splity/powiadomienia),
 - nie uczymy 5 narzędzi naraz, bo celem jest metodyka, nie kolekcjonowanie ikonek.
 ```
 
