@@ -77,7 +77,7 @@ Dzisiejsza pętla:
 - Core: uczestnicy wskazują, co w ich projektach najczęściej psuje się po pierwszej „udanej” iteracji z AI.
 - Stretch: dopisują jedną rzecz, którą chcieliby mieć jako obowiązkowy punkt review w swoim zespole.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Szybka runda na czacie lub głosowo. Trener grupuje odpowiedzi w 3 koszyki: jakość, bezpieczeństwo, kontrola zakresu. To staje się wspólną checklistą dnia.
 
 ### Szacowany czas
@@ -124,7 +124,7 @@ Zanim poprosisz AI o testy, zapisz:
 - Core: uczestnicy rozpisują 3 kryteria akceptacji i 2 edge-case’y dla jednego slice’a z Day 3.
 - Stretch: dopisują, który test warto odpalić jako pierwszy w CI, jeśli czasu i zasobów jest mało.
 
-### Feedback loop
+### Feedback loop (Kolb)
 2–3 osoby pokazują swoje kryteria. Trener dopina wersję referencyjną i razem oceniamy, czy kryteria są mierzalne i czy rzeczywiście chronią najważniejsze zachowania.
 
 ### Szacowany czas
@@ -178,7 +178,7 @@ Checklist review diffu:
 - Core: uczestnicy dostają przykładowy diff i oznaczają 3 rzeczy do akceptacji i 3 rzeczy do poprawy.
 - Stretch: piszą gotowy feedback do agenta tak, by zawęzić poprawkę do konkretnego obszaru.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener zbiera przykłady „zbyt miękkiego” i „dobrego” feedbacku. Wspólnie poprawiamy komunikat do wersji, którą można od razu wkleić agentowi.
 
 ### Szacowany czas
@@ -234,7 +234,7 @@ Security mini-check przed commitem:
 - Obowiązkowy checkpoint (legacy JFTP): klasyfikują ryzyka `CRITICAL/HIGH/MEDIUM/LOW` i dla każdego `CRITICAL/HIGH` zapisują `fix now` vs `fix next sprint`.
 - Stretch: dopisują jedno pytanie, które zadaliby zespołowi security lub architektowi przed wdrożeniem.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener porównuje odpowiedzi i odróżnia rzeczy krytyczne od „dobrze byłoby dopracować później”. Powstaje praktyczna lista: co poprawiamy dziś, co trafia do backlogu ryzyk.
 
 ### Szacowany czas
@@ -283,7 +283,7 @@ Legacy workflow z AI:
 - Core: uczestnicy opisują plan modernizacji jednego małego fragmentu legacy w 3 krokach.
 - Stretch: dopisują, jakie informacje muszą trafić do commit message albo ADR, żeby zmiana była audytowalna.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener wybiera jeden plan zbyt szeroki i jeden sensownie ograniczony. Grupa porównuje, który da się realnie zrobić w zespole bez paraliżu.
 
 ### Szacowany czas
@@ -337,7 +337,7 @@ Cloud vs on-prem:
 - Core: uczestnicy rysują prosty pipeline jakości dla swojego kontekstu (cloud albo on-prem).
 - Stretch: dopisują, które kroki muszą mieć manual approval w realiach bankowych.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener zestawia 2–3 pipeline’y i wskazuje wspólny rdzeń oraz elementy zależne od polityk organizacji. Powstaje zwięzły model referencyjny do użycia po kursie.
 
 ### Szacowany czas
@@ -383,7 +383,7 @@ Najpierw workflow. Potem narzędzia.
 - Core: uczestnicy wskazują, które elementy workflow są przenaszalne między narzędziami.
 - Stretch: dopisują jedną politykę zespołową, która byłaby ważniejsza niż wybór konkretnego narzędzia.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener zamyka blok jednym zdaniem referencyjnym: „narzędzia się zmieniają, ale dobra pętla pracy zostaje”.
 
 ### Szacowany czas
@@ -434,7 +434,7 @@ Szablon poprawki do agenta:
 - Core: uczestnicy piszą prompt naprawczy dla jednego konkretnego findingu.
 - Stretch: dopisują, jaki commit message najlepiej opisze tę poprawkę po wdrożeniu.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener wybiera jedną odpowiedź zbyt szeroką i jedną dobrze zawężoną. Grupa porównuje, która wersja daje większą przewidywalność i mniejsze ryzyko regresji.
 
 ### Szacowany czas
@@ -486,7 +486,7 @@ Jutro: demo + decyzje techniczne + plan „co dalej po szkoleniu”.
 - Core: każdy uczestnik zapisuje 1 nawyk jakościowy, który chce zabrać do pracy od razu po szkoleniu.
 - Stretch: dopisać, jaki argument przekonałby ich zespół lub przełożonego do takiej zmiany.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Krótka runda końcowa. Trener zbiera 3–5 przykładów i wzmacnia pozytywnie konkretne, wykonalne nawyki zamiast ogólnych deklaracji.
 
 ### Szacowany czas

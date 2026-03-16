@@ -75,7 +75,7 @@ Domykamy 3 rzeczy:
 - Core: uczestnicy zapisują jedną rzecz z tygodnia, którą już widzą jako użyteczną u siebie w pracy.
 - Stretch: dopisują jedną obawę, która nadal ich hamuje przed szerszym użyciem AI.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener grupuje odpowiedzi w 3 koszyki: produktywność, jakość, ryzyko. Te trzy koszyki wrócą później w planie 30-dniowym.
 
 ### Szacowany czas
@@ -126,7 +126,7 @@ Struktura demo końcowego:
 - Obowiązkowy checkpoint (final app audit): przed demo przypinają status bramki bezpieczeństwa `GO / GO WITH CONDITIONS / NO-GO` i 3 najważniejsze ryzyka.
 - Stretch: dopisują wersję „dla managera / architekta / security”, zmieniając akcenty, ale nie gubiąc sensu.
 
-### Feedback loop
+### Feedback loop (Kolb)
 2–3 osoby prezentują mini-demo bez ekranu, tylko słownie. Trener poprawia kolejność, język i poziom konkretu.
 
 ### Szacowany czas
@@ -173,7 +173,7 @@ Dobra decyzja techniczna w demo brzmi tak:
 - Core: uczestnicy wybierają 3 decyzje z projektu i zapisują dla każdej: wybór, powód, koszt uboczny.
 - Stretch: dopisują, jak opowiedzieliby tę samą decyzję osobie nietechnicznej.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener zbiera przykłady i dopracowuje je do wersji krótkiej, konkretnej i „do powiedzenia na spotkaniu”.
 
 ### Szacowany czas
@@ -232,7 +232,7 @@ To ta sama metodyka w innych ograniczeniach:
 - Core: uczestnicy dopasowują 3 elementy z cloud workflow do swojego realnego środowiska on-prem / enterprise.
 - Stretch: wskazują, co byłoby u nich najtrudniejsze: modele, polityki bezpieczeństwa, integracja, koszty czy kultura zespołu.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener zbiera odpowiedzi i układa wspólną mapę: „co przenosimy 1:1”, „co wymaga adaptacji”, „co na razie zostawiamy poza zakresem”.
 
 ### Szacowany czas
@@ -280,7 +280,7 @@ Zasada na start:
 - Core: uczestnicy wskazują jedną integrację lub jeden typ narzędzia, który dałby im największą wartość już teraz.
 - Stretch: dopisują, jaki guardrail musi istnieć, żeby ta integracja była akceptowalna w ich organizacji.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener porównuje propozycje i pomaga odróżnić integracje wartościowe od „gadżetowych”.
 
 ### Szacowany czas
@@ -336,7 +336,7 @@ Małe wdrożenie > wielka prezentacja bez efektu.
 - Core: każdy uczestnik wypełnia mini-plan 30-dniowy dla swojego środowiska.
 - Stretch: dopisuje, jak pokaże wynik przełożonemu lub zespołowi po miesiącu.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener wybiera 2–3 przykłady i pomaga je odchudzić lub doprecyzować, żeby były realne, a nie „piękne na slajdzie”.
 
 ### Szacowany czas
@@ -382,7 +382,7 @@ Najpierw jeden workflow. Potem porównania.
 - Core: uczestnicy zapisują, które narzędzie najłatwiej byłoby im wprowadzić u siebie jako pierwszy krok.
 - Stretch: dopisują, jakie ograniczenie organizacyjne może o tym zdecydować.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Szybkie głosowanie i komentarz trenera: wybór narzędzia powinien zależeć od kontekstu pracy, nie od mody.
 
 ### Szacowany czas
@@ -441,7 +441,7 @@ Mini-playbook po kursie:
 - Stretch: dopisuje sekcję „jak wyjaśnię ten plan komuś, kto ma obawy wobec AI”.
 - Opcjonalny stretch mobile (tylko jeśli grupa zgłasza potrzebę): opisz 1 flow z kursowej aplikacji w wersji mobile (ekrany + walidacje + stany błędów) wg `materials/research/mobile-extension-micro-support.md`.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener wybiera kilka fragmentów i pomaga je skrócić do formy, którą rzeczywiście da się wykorzystać po kursie.
 
 ### Szacowany czas
@@ -496,7 +496,7 @@ Dziękuję za wspólną misję 🤓
 - Core: każdy zapisuje swój „pierwszy krok po kursie” w jednym zdaniu.
 - Stretch: każdy zapisuje też jedno ryzyko, które będzie świadomie monitorować.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Krótka runda końcowa. Trener wzmacnia konkretne, realistyczne deklaracje i dziękuje grupie za współpracę.
 
 ### Szacowany czas

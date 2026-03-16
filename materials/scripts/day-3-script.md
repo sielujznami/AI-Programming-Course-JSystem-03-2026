@@ -74,7 +74,7 @@ Plan Day 3:
 - Core: uczestnicy wskazują, które 2–3 slice’y z Day 2 dają najszybszy sensowny efekt demonstracyjny.
 - Stretch: dopisać, jaki artefakt audytowy chcemy mieć przy każdym slice’ie, np. commit, opis decyzji albo wynik testu.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener zbiera propozycje, grupa głosuje kciukiem w górę na najbardziej sensowną sekwencję. Powstaje wspólna kolejność implementacji na resztę dnia.
 
 ### Szacowany czas
@@ -119,7 +119,7 @@ Szablon promptu dla pierwszego slice’a:
 - Core: uczestnicy w parach piszą prompt do pierwszego slice’a backendowego.
 - Stretch: dopisać krótką sekcję „czego NIE robimy w tej iteracji”, żeby ograniczyć rozlewanie zakresu.
 
-### Feedback loop
+### Feedback loop (Kolb)
 2–3 pary czytają swoje prompty. Grupa wskazuje, czy prompt jest wystarczająco konkretny, czy nadal zostawia agentowi zbyt wiele swobody. Trener dopina jedną wersję referencyjną.
 
 ### Szacowany czas
@@ -166,7 +166,7 @@ Checklist dla warstwy danych:
 - Core: rozpisać minimalny model danych dla pierwszego działającego przepływu.
 - Stretch: wskazać jeden element, który w wersji bankowej wymagałby później mocniejszego security lub compliance review.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener porównuje 2 warianty modelu danych i pyta grupę, który lepiej równoważy prostotę z bezpieczeństwem. Finalizujemy wspólną wersję do dalszej implementacji.
 
 ### Szacowany czas
@@ -214,7 +214,7 @@ Minimalny slice UI:
 - Core: uczestnicy opisują minimalny zakres ekranu potrzebny do pokazania wartości biznesowej.
 - Stretch: dopisać komunikat błędu i komunikat sukcesu tak, aby były zrozumiałe również dla nietechnicznego odbiorcy.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Grupa porównuje dwa warianty UI pod kątem prostoty i czytelności. Trener wybiera wersję, która najlepiej wspiera demo i dalsze testowanie.
 
 ### Szacowany czas
@@ -261,7 +261,7 @@ Zasada: jeśli diff jest za duży, to nie jest sukces — to sygnał, że prompt
 - Core: uczestnicy oceniają przykładowy diff i wskazują, co zostawić, co poprawić, a co wyrzucić.
 - Stretch: napisać krótką wiadomość do agenta z informacją zwrotną po nieudanej iteracji.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Szybkie głosowanie: które fragmenty diffu są „safe to keep”, a które wymagają korekty. Trener pokazuje, jak z feedbacku zrobić kolejny, lepszy prompt.
 
 ### Szacowany czas
@@ -310,7 +310,7 @@ Szablon promptu debugowego:
 - Core: uczestnicy opisują prompt debugowy dla jednego konkretnego błędu.
 - Stretch: dopisać hipotezę przyczyny i propozycję najmniejszej możliwej poprawki.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener wybiera 2 prompty debugowe i porównuje, który lepiej prowadzi do diagnozy. Grupa wskazuje, gdzie prompt był zbyt emocjonalny, a za mało informacyjny.
 
 ### Szacowany czas
@@ -358,7 +358,7 @@ Krótka zasada narzędziowa:
 - Core: uczestnicy wskazują, w jakim jednym scenariuszu ich zespół mógłby chcieć krótkiego porównania narzędzi.
 - Stretch: dopisać ryzyko organizacyjne wynikające z nadmiaru narzędzi.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Krótka runda ustna: 2–3 osoby mówią, które porównanie byłoby dla nich najbardziej praktyczne i dlaczego. Trener dopina zasadę: porównujemy, ale nie rozbijamy głównego workflow.
 
 ### Szacowany czas
@@ -407,7 +407,7 @@ Prompt do bezpiecznej refaktoryzacji:
 - Core: uczestnicy wybierają jeden fragment kodu, który warto uporządkować przed Day 4.
 - Stretch: dopisać mini-checklistę, co po tej refaktoryzacji trzeba sprawdzić testem lub review.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Grupa ocenia, czy proponowana refaktoryzacja jest naprawdę mała i bezpieczna. Trener pokazuje, jak odróżnić realny porządek od kuszącego, ale ryzykownego „jeszcze tylko przepiszmy pół modułu”.
 
 ### Szacowany czas
@@ -451,7 +451,7 @@ Podsumowanie Day 3:
 - Core: każdy zapisuje jedną rzecz, którą jutro koniecznie trzeba zweryfikować testem albo review.
 - Stretch: dopisać jedno pytanie, które warto zadać przed wdrożeniem tego workflow w zespole enterprise lub on-prem.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Krótka runda końcowa: 3 osoby mówią, co było dziś najbardziej praktyczne i co nadal budzi ostrożność. Trener zapisuje te punkty jako wejście do Day 4.
 
 ### Szacowany czas

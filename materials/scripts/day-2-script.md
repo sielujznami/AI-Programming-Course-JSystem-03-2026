@@ -75,7 +75,7 @@ Plan na dziś:
 - Core: każdy zapisuje w 2–3 zdaniach, jaki problem ma rozwiązać nasze MVP i kto jest jego głównym użytkownikiem.
 - Stretch: dopisać, jaka decyzja biznesowa lub operacyjna ma być dzięki temu szybsza.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Szybka runda: 3 osoby czytają swoje wersje, grupa wskazuje, co jest zbyt szerokie lub zbyt ogólne. Trener dopina wspólną wersję roboczą.
 
 ### Szacowany czas
@@ -122,7 +122,7 @@ Mini-szablon problem framing:
 - Core: w parach uzupełnić szablon dla wspólnego MVP kursowego.
 - Stretch: dopisać 2 ryzyka domenowe, np. błędna interpretacja danych, zbyt szeroki zakres lub brak ścieżki audytu.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Pary wrzucają 1 wersję problem framing na czat. Trener grupuje odpowiedzi i wspólnie składa jedną wersję bazową dla reszty dnia.
 
 ### Szacowany czas
@@ -169,7 +169,7 @@ Przykład ograniczenia:
 - Core: uczestnicy uzupełniają tabelę dla wspólnego MVP.
 - Stretch: dopisać jedno kryterium jakości i jedno kryterium bezpieczeństwa dla każdego głównego modułu.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Grupa wybiera 5 najważniejszych ograniczeń i 5 kryteriów akceptacji. Trener redaguje finalną wersję „kursową”, która stanie się wejściem do architektury.
 
 ### Szacowany czas
@@ -220,7 +220,7 @@ Pytania do szkicu architektury:
 - Core: w małych grupach narysować szkic architektury na podstawie ustalonych ograniczeń.
 - Stretch: zaznaczyć jeden przepływ błędu lub awarii i jak system ma się wtedy zachować.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Każda grupa pokazuje diagram w 90 sekund. Reszta wskazuje jedną mocną stronę i jedno ryzyko. Trener składa wspólną wersję referencyjną.
 
 ### Szacowany czas
@@ -265,7 +265,7 @@ Checklist do modelu danych:
 - Core: stworzyć szkic modelu domeny i 5 najważniejszych reguł biznesowych.
 - Stretch: dopisać jedno pytanie, które warto zadać analitykowi lub właścicielowi biznesowemu przed implementacją.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Krótki przegląd: trener wybiera 2 modele i porównuje ich mocne strony. Potem dopina wspólny model referencyjny oraz listę reguł do późniejszych ćwiczeń.
 
 ### Szacowany czas
@@ -319,7 +319,7 @@ Bridge React -> Angular:
 - Core: rozpisać 2–3 główne ekrany lub przepływy użytkownika dla MVP.
 - Stretch: wskazać, które elementy najłatwiej pokazać najpierw w cloud-max demo, a które lepiej opisać jako późniejszą adaptację on-prem.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Uczestnicy pokazują po jednym ekranie lub przepływie. Trener wybiera pierwszy kandydat do implementacji i uzasadnia wybór pod kątem dydaktyki oraz wykonalności.
 
 ### Szacowany czas
@@ -363,7 +363,7 @@ Mini ADR:
 - Core: grupa tworzy 1 ADR dla najważniejszej decyzji dnia.
 - Stretch: dopisać, co by się zmieniło w wariancie stricte on-prem.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Wspólny odczyt ADR. Trener dopina język tak, żeby dokument nadawał się i dla człowieka, i jako wejście dla AI.
 
 ### Szacowany czas
@@ -414,7 +414,7 @@ Szkielet promptu dla agenta:
 - Core: napisać prompt do pierwszego małego slice’a, który jutro zrealizuje agent.
 - Stretch: dopisać wersję „adaptacja on-prem”, wskazując co zmienia się w modelu, endpointach lub polityce pracy.
 
-### Feedback loop
+### Feedback loop (Kolb)
 2–3 prompty czytane na głos. Grupa wskazuje, czy agent miałby wystarczająco jasny cel, granice i definition of done. Trener poprawia prompt do wersji referencyjnej.
 
 ### Szacowany czas
@@ -459,7 +459,7 @@ Checklist do task slicing:
 - Core: rozbić projekt na 5–8 pierwszych slice’ów do Day 3.
 - Stretch: przypisać, które slice’y najlepiej nadają się do pracy cloud-max, a które lepiej tylko omówić jako późniejszą adaptację on-prem.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Trener z grupą układa wspólną kolejność wdrożenia. Na koniec każdy uczestnik zapisuje, który slice najbardziej rozumie i z czym chce wejść w Day 3.
 
 ### Szacowany czas
@@ -505,7 +505,7 @@ Jutro wchodzimy w budowę rdzenia aplikacji na bazie tych artefaktów.
 - Core: każdy zapisuje 1 rzecz, która dziś najbardziej porządkuje pracę z AI.
 - Stretch: dopisać 1 pytanie, które warto zabrać do Day 3.
 
-### Feedback loop
+### Feedback loop (Kolb)
 Szybki exit check na czacie: „co było dziś najbardziej praktyczne?” i „z czym wchodzisz jutro?”.
 
 ### Szacowany czas
