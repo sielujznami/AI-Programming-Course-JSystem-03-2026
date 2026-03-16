@@ -69,7 +69,7 @@ Zasady pracy:
 👍 = jasne / działa / jestem z wami
 ❓ = pytanie (wrzuć na chat lub powiedz głosem)
 🐛 = coś nie działa, zablokowany/a
-AI = draft + weryfikacja, nie wyrocznię
+AI = draft + weryfikacja, nie wyrocznia
 Pytania od razu, nie czekamy.
 ```
 
@@ -161,15 +161,13 @@ Runda intro (2-3 min/os):
 
 🎬 **CO MÓWIĘ:**
 
-„Teraz mały quiz. To nie egzamin. Nikt nie widzi odpowiedzi, nikt nie ocenia. Celem jest żebym wiedział które pojęcia wymagają więcej czasu, a które możemy przeskoczyć.
+„Teraz mały quiz. To nie egzamin. Nikt nie ocenia. Celem jest żebym wiedział które pojęcia wymagają więcej czasu, a które możemy przeskoczyć.
 
-Jeśli czegoś nie wiecie — idealnie. Właśnie po to tu jesteście. Zaznaczacie intuicję, nie szukacie w Google.
-
-Mam tu 8 pojęć. Przy każdym: czy rozumiesz, mogłbyś wytłumaczyć innemu programiście? 1 = nie słyszałem, 2 = słyszałem ale nie wytłumaczę, 3 = rozumiem, 4 = stosuję na co dzień."
+Jeśli czegoś nie wiecie — idealnie. Właśnie po to tu jesteście. Zaznaczajcie proszę intuicyjnie, nie szukajcie w Google.
 
 💬 WKLEJ NA CHAT:
 ```
-Quiz kalibracyjny — oceń 1-4:
+Pojęcia do zrozumienia dzisiaj:
 1) Token / tokenizacja
 2) Context window (okno kontekstowe)
 3) Hallucination (halucynacja LLM)
@@ -178,9 +176,6 @@ Quiz kalibracyjny — oceń 1-4:
 6) Agent vs Assistant (różnica)
 7) Sandbox (izolacja procesu agenta)
 8) MCP (Model Context Protocol)
-
-1=nie słyszałem, 2=słyszałem, 3=rozumiem, 4=stosuję
-Wrzućcie na czat np.: 3,2,2,3,1,2,1,1
 ```
 
 🎬 *[Po zebraniu odpowiedzi]* „OK — widzę że token i context window są jaśniejsze, natomiast agent vs assistant i MCP to obszary do doprecyzowania. Świetnie — to właśnie na tym skupimy się mocniej.
@@ -210,7 +205,7 @@ Zanim włączymy Codexa i zaczniemy pisać — potrzebuję żebyście zrozumieli
 
 Zacznijmy od pytania: Czy AI Was zastąpi?"
 
-🎬 *[Pause, poczekaj na reakcje]* „Słyszę dwie odpowiedzi. Część mówi tak, część nie. Prawda jest bardziej nuansowana.
+🎬 *[Pause, poczekaj na reakcje]* „Słyszę dwie odpowiedzi. Część mówi tak, część nie. Prawda jest bardziej zniuansowana.
 
 GitHub w 2025 roku zbadał 120 tysięcy developerów na 14 platformach przez rok. Stanford opublikował wyniki. I wiecie co wyszło?"
 
@@ -222,7 +217,10 @@ https://www.youtube.com/watch?v=JvosMkuNxF8
 METR badanie (07.2025): https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/
 ```
 
-🎬 „Wyniki były... zaskakujące. Produktywność w wielu przypadkach spadła. Doświadczeni developerzy pracujący nad złożonymi, nieznajomymi zadaniami byli wolniejsi z AI niż bez AI. W zadaniach prostych i dobrze znanych — AI przyspieszało.
+🎬 „Produktywność w wielu przypadkach spadła. Doświadczeni developerzy pracujący nad złożonymi, nieznajomymi zadaniami byli wolniejsi z AI niż bez AI. W zadaniach prostych i dobrze znanych — AI przyspieszało.
+
+Ale... to są badania z 2025 roku. W gurniu i lutym 2026 nastąpiły dwa duże skoki jakości modeli na narzędzi (tzw. harnesses = uprząż, czyli wszystko dookoła modelu co pozwala mu dobrze działać).
+Więc te badania w tej chwili są już nieaktualne. Ale, tylko częściowo.
 
 To ważne. AI nie jest magicznym turbo-doładowaniem. Jest narzędziem z charakterystyką użycia. Sprawdza się w konkretnych kontekstach i spowalnia w innych.
 
@@ -241,13 +239,14 @@ Case study: Peter Steinberger + OpenClaw
 - Dołączył do OpenAI w lutym 2026
 
 Artykuł: https://steipete.me/posts/2025/shipping-at-inference-speed
+Profil na GitHub z wykresem commitów: https://github.com/steipete
 ```
 
-🎬 „Człowiek z Wiedniem, iOS developer, zaczął używać Codexa w październiku 2025. 26 października — 1374 commitów w jeden dzień. Nie pisał ich ręcznie — orkiestrował flotę agentów. Każdy agent w osobnym git worktree, każdy pracuje nad osobnym feature, wyniki review przez człowieka przed mergem.
+🎬 „Człowiek z Wiednia, iOS developer, zaczął używać Codexa w październiku 2025. 26 października — 1374 commitów w jeden dzień. Nie pisał ich ręcznie — orkiestrował flotę agentów. Każdy agent w osobnym git worktree, każdy pracuje nad osobnym feature, wyniki review przez człowieka przed mergem.
 
 To nie jest typ który zniknie z rynku. To jest typ który wie jak korzystać z narzędzia.
 
-I drugi przykład, bliżej nas — Microsoft."
+I drugi przykład, bliżej dużych firm — Microsoft."
 
 💬 WKLEJ NA CHAT:
 ```
@@ -295,7 +294,7 @@ Poziomy AI-Assisted Programming:
 Gdzie jesteś teraz? Gdzie chcesz być po tym kursie?
 ```
 
-🎬 „'Dark Factory' — zapożyczone z produkcji. Fabryka która działa w ciemności bo nie ma tam ludzi. W softwearze: agenty shipują fituresy 24/7, ludzie ustawiają kierunek i robią review.
+🎬 „'Dark Factory' — zapożyczone z produkcji. Fabryka która działa w ciemności bo nie ma tam ludzi. W softwearze: agenty shipują features 24/7, ludzie ustawiają kierunek i robią końcowe sprawdzenie jakości.
 
 Nie twierdzę że Dark Factory jest dobra dla wszystkich kontekstów. W środowisku bankowym, regulowanym — kontrola i audyt są kluczowe. Ale warto wiedzieć że ten kierunek istnieje, bo zmienia reguły gry.
 
@@ -368,7 +367,9 @@ Benchmarki:
 **Sonnet 4.6** — nasza codzienna 'robocza' bestia. Dobry balans ceny i jakości.
 **Haiku 4.5** — szybki i tani, dobry do prostych powtarzalnych tasków.
 
-Codex używa modeli OpenAI. Claude Code używa modeli Anthropic. W Codex możecie też skonfigurować OpenRouter i używać różnych modeli, włącznie z lokalnymi przez Ollama.
+Z Codex jest prościej bo tam jest po prostu teraz GPT-5.4 najlepszy. Ewentualnie GPT-5.3-codex.
+
+Codex używa modeli OpenAI. Claude Code używa modeli Anthropic. W obu możecie też skonfigurować OpenRouter i używać różnych modeli, włącznie z lokalnymi przez Ollama.
 
 Ważna obserwacja: różnica między modelami jest mniejsza niż różnica między harness'ami — czyli środowiskiem w którym model pracuje."
 
@@ -404,20 +405,40 @@ z Spring Boot w środowisku bankowym z wysokimi wymaganiami
 bezpieczeństwa. Napisz..."
 ```
 
-🎬 „Ale prompt engineering w 2026 roku to już nie to co w 2023. Teraz mówimy o **Context Engineering** — to ważniejsze niż sam prompt.
+🎬 „Ale prompt engineering w 2026 roku to już nie to co w 2023. Jest ważny — ale nie najważniejszy. Teraz mówimy o **Context Engineering** — i to jest kluczowa różnica.
 
-Mam tu jeden świetny artykuł od Anthropic na ten temat."
+Wyjaśnijmy to precyzyjnie:"
 
 💬 WKLEJ NA CHAT:
 ```
-Context Engineering > Prompt Engineering
-Artykuł Anthropic: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+Prompt Engineering vs Context Engineering:
 
-Praktycznie: agent jest tak dobry jak kontekst który dostaje.
-AGENTS.md / CLAUDE.md to jest właśnie context engineering.
+PROMPT ENGINEERING — jak formułujesz zapytanie:
+• zero-shot, few-shot, chain-of-thought, role prompting
+• techniki budowania pojedynczego zapytania
+• ważny, ale coraz mniej decydujący (modele są mądrzejsze)
+• = jak rozmawiasz z modelem
+
+CONTEXT ENGINEERING — co wkładasz do okna kontekstowego:
+• AGENTS.md / CLAUDE.md — stały kontekst projektu
+• tylko to co potrzebne i relevantne (sniper, nie shotgun)
+• precyzja = mniej tokenów, niższy koszt, lepsza jakość
+• unikanie "context rot" — za dużo śmieci = model się gubi
+• = co model widzi i z czym pracuje
+
+W 2026: Context Engineering > Prompt Engineering
+
+Artykuł Anthropic:
+https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
 ```
 
-🎬 „Kilka praktycznych zasad dla dobrego promptu:
+🎬 „Wyobraźcie sobie dwóch snajperów. Jeden ma bardzo krótki mission brief, ale myśli i strzela precyzyjnie w punkt. Drugi ma świetny i rozbudowany brief, ale strzela śrutem we wszystkich kierunkach — bo dał modelowi 50 plików, historię projektu od 2 lat i StackOverflow paste z luźno związanego tematu. Który ma większą szansę trafienia celu?
+
+Context Engineering to bycie snajperem: dajesz modelowi dokładnie to co potrzebuje do tego konkretnego zadania, we właściwej kolejności, bez śmieci.
+Na tym skupiają się inżynierowie tworzący agentów Codex, Claude Code, Copilot czy Cursor. Oni głównie zajmuą się dobrym dostarczaniem kontakstu i narzędzi dla modelu. Harnesses = uprzęże.
+Wrócimy do tego praktycznie kiedy będziemy tworzyć pliki AGENTS.md / CLAUDE.md
+
+Kilka praktycznych zasad dla dobrego promptu:
 
 **1. Daj rolę i kontekst.** 'Jesteś senior Java developerem, projekt to backend bankowy na Spring Boot 3.2, używamy Java 21' — to ważniejsze niż magia słów.
 
@@ -436,10 +457,11 @@ TAK. Polski jest w TOP 5 języków w benchmarkach LLM.
 Źródło: https://cryps.pl/sztuczna-inteligencja-mowi-po-polsku-nasz-jezyk-zdeklasowal-angielski-w-najnowszym-rankingu/
 
 Praktycznie: możecie promptować po polsku.
-Kod nadal będzie po angielsku (zmienne, komentarze).
+Ale Badanie jest już stare, na dawnych modelach oraz dotyczyło tylko wyszukiwania igły w stogu siana, czyli informacji w dużym kontekście.
+Promptowanie po angielsku nadal jest wydajne i zajmuje mniej kontekstu (polskie słowa to więcej tokenów).
 ```
 
-🎬 „Teraz Vibe Coding — co to jest i dlaczego jest zarówno wspaniałe jak i niebezpieczne."
+🎬 „Teraz Vibe Coding vs Vibe Engineering — bo to jest serce tego kursu."
 
 💬 WKLEJ NA CHAT:
 ```
@@ -449,38 +471,76 @@ https://x.com/karpathy/status/1886192184808149383
 "Fully give in to the vibes, embrace exponentials,
 forget that the code even exists."
 – Karpathy, 2025
-
-Vibe Coding = opisujesz co chcesz, AI generuje,
-ty akceptujesz bez dogłębnej analizy.
-
-Vibe Engineering = opisujesz, AI generuje,
-TY ROZUMIESZ I WERYFIKUJESZ.
 ```
 
-🎬 „Microsoft nazwał swój nowy Power Apps 'Vibe'. YCombinator ubiera się w homary. To nie jest już niszowy termin.
+🎬 „Vibe Coding to: mówisz głosem lub piszesz ogólny pomysł, AI generuje kod, ty klikasz Accept i nie czytasz. AI jest w 100% kontroli nad kodem. Ty dostarczasz tylko 'vibe' — nastrój, kierunek, pomysł.
 
-Ale jest problem — i to jest sedno 'Czy AI nas przyspiesza czy spowalnia'. Vibe Coding prowadzi do:
-- kodu który działa ale nikt nie rozumie,
-- tech debt który narosł z prędkością światła,
-- problemów bezpieczeństwa które AI przemilczało bo nie pytałeś,
-- zanikających 'mięśni' programistycznych — skill degradation.
+Działa świetnie dla jednorazowych skryptów, prototypów MVP które wyrzucisz po demonstracji, side projectów gdzie bezpieczeństwo nie ma znaczenia. Microsoft Power Apps Vibe, v0.dev — to jest Vibe Coding.
 
-Jest świetne wideo na YouTube:"
+Ale w środowisku bankowym, produkcyjnym, regulowanym? To katastrofa w zwolnionym tempie."
+
+💬 WKLEJ NA CHAT:
+```
+Vibe Coding = KIEDY TAK, KIEDY NIE:
+
+✅ OK:
+• jednorazowy skrypt do obróbki danych
+• throwaway prototyp UI do demonstracji
+• side project bez danych wrażliwych
+• nauka nowych technologii
+
+❌ NIE:
+• kod produkcyjny bankowy
+• logika autoryzacji i uwierzytelniania
+• przetwarzanie danych osobowych (RODO)
+• cokolwiek co przechodzi przez audit
+• legacy system który ktoś będzie utrzymywać
+```
+
+🎬 „Vibe Engineering to coś zupełnie innego. Cztery filary:"
+
+💬 WKLEJ NA CHAT:
+```
+Vibe Engineering — 4 filary:
+
+1. WERYFIKACJA — czytasz i rozumiesz co AI wygenerowało.
+   Nie musisz rozumieć każdej linii, ale rozumiesz architekturę
+   i krytyczną logikę. Podpisujesz swoim imieniem.
+
+2. SYSTEM WALIDACJI — dajesz AI narzędzia do samoweryfikacji:
+   • testy jednostkowe które agent sam uruchamia
+   • linter i formatowanie jako część loop'a
+   • CI/CD który blokuje zły kod automatycznie
+   • "Napisz kod, uruchom testy, napraw błędy, commit"
+
+3. PRECYZYJNY KONTEKST (context engineering) — nie zaśmiecasz
+   modelu. Dajesz mu dokładnie to co potrzebuje: AGENTS.md,
+   konkretne pliki, zakres zadania. Snajper, nie shotgun.
+
+4. KONTROLA SCOPE — jasne granice co agent może, a czego nie:
+   sandbox, approvals, dedykowany branch, małe zadania.
+```
+
+🎬 „Inaczej mówiąc: w Vibe Engineering budujesz system. AI nie jest luzem puszczonym na produkcję. AI pracuje w ramach które TY zaprojektowałeś: testy, linter, sandbox, AGENTS.md, review. Agent może zrobić błąd — ale system to wyłapie zanim dojdzie do maina.
+
+To jest różnica między juniorem który 'pisze kod' a seniorem który 'projektuje system wytwarzania kodu'.
+
+Microsoft nazwał swój nowy Power Apps 'Vibe'. YCombinator ubiera się w homary. Vibe Coding to już mainstream. Ale wy wychodzicie stąd jako Vibe Engineers."
 
 💬 WKLEJ NA CHAT:
 ```
 "AI Coding Sucks" (dlaczego vibe coding ma granice):
 https://www.youtube.com/watch?v=0ZUkQF6boNg
 
-Kluczowe ryzyka:
-- Nadmierne poleganie na AI
-- Halucynacje w krytycznym kodzie
-- Prywatność danych (co wklejasz do modelu?)
-- Degradacja umiejętności
-- Kod który przechodzi review ale nie rozumiemy go
+Kluczowe ryzyka Vibe Coding:
+• nadmierne poleganie — skill degradation
+• halucynacje w krytycznym kodzie (walidacja, auth)
+• prywatność: co wklejasz do modelu? (dane klientów!)
+• tech debt z prędkością światła
+• kod który przechodzi review bo nikt go nie rozumie
 ```
 
-🎬 „Dlatego nasz kurs nie uczy Vibe Codingu. Uczymy Vibe Engineering: używasz AI, ale rozumiesz co generuje, weryfikujesz i podpisujesz swoim imieniem.
+🎬 „Dlatego nasz kurs nie uczy Vibe Codingu. Uczymy Vibe Engineering: AI pracuje w systemie który TY zaprojektowałeś, weryfikujesz wyniki, i podpisujesz kod własnym imieniem.
 
 Jeszcze jedno przed setupem. AGENTS.md i CLAUDE.md. To jest context engineering w praktyce."
 
@@ -507,14 +567,15 @@ https://github.com/microsoft/mcp-for-beginners/blob/main/AGENTS.md
 Mini-ćwiczenie: Prompt improvement
 
 Popraw ten prompt:
-"Napisz kod do obsługi płatności"
+"Napisz kod do obsługi płatności" albo "Napisz grę 3D w snake'a"
 
 Dodaj:
 1) rolę i kontekst techniczny
-2) konkretny scope
+2) konkretny scope, zasady
 3) ograniczenia bezpieczeństwa
-4) tech stack (Java/Spring)
+4) tech stack (React/Node albo Java/Spring)
 
+Wrzuć do ChatGPT app (aby łatwo udostępnić), albo Codex desktop App (jeśli wolicie).
 Wrzućcie swoje wersje na czat — porównamy.
 ```
 
@@ -803,20 +864,111 @@ Wyniki wrzućcie na czat: co dostaliście?
 
 🎬 *[Pomagaj uczestnikom, obserwuj co generują, omawiaj wyniki]*
 
-🎬 „Teraz krótko porównanie głosowe — i na boku IntelliJ."
+🎬 „Jeszcze jedna rzecz zanim zamkniemy setup — voice mode i modele lokalne. Szybko, bo to jest opcjonalne."
+
+🎬 **HANDY — dyktowanie promptów:**
+
+„Pisanie długich promptów do agenta jest uciążliwe. Jest lepszy sposób — dyktowanie głosem. Polecam Handy: open source, działa lokalnie, bez chmury dla transkrypcji."
 
 💬 WKLEJ NA CHAT:
 ```
-Opcjonalnie: voice mode
-
-Handy STT (open source, jak SuperWhisper):
+Handy STT — voice input do promptów:
 https://handy.computer/
+Open source (MIT), lokalne STT — działa bez internetu
 
-Alternatywa: Claude Code /voice (tylko Claude Code CLI)
+Rekomendowany model STT: NVIDIA Parakeet v3
+• dobry dla polskiego i angielskiego
+• model lokalny → używa CPU/RAM waszej maszyny
+• szybkość = zależy od procesora
+
+LLM post-processing (opcjonalnie):
+• korekta transkrypcji (usuwa "yyy", poprawia interpunkcję)
+• tłumaczenie PL→EN (dyktujecie po polsku, dostajecie prompt po angielsku)
+• przez modele w chmurze LUB przez Ollama (lokalnie, gratis)
+
+Alternatywa: Claude Code /voice (tylko Claude Code CLI):
 claude /voice
-
-Przydatne gdy: dyktujecie długie prompty lub opisujecie złożony problem
 ```
+
+🎬 „Jak skonfigurować Handy żeby poprawiał transkrypcję? Macie pole 'Post-processing prompt' w ustawieniach. Przykładowe prompty które dają mi dobre wyniki:"
+
+💬 WKLEJ NA CHAT:
+```
+Handy — prompty do post-processingu (wklejcie w ustawienia):
+
+--- KOREKTA (zostaje po polsku): ---
+Fix transcription errors, remove filler words like "yyy", "ee",
+normalize punctuation. Keep the original language. Output only
+the corrected text, no explanations.
+
+--- TŁUMACZENIE PL→EN (dla angielskich promptów do agentów): ---
+You receive a Polish voice transcription. Translate it to clear,
+concise English suitable as a prompt for an AI coding agent.
+Fix transcription errors. Remove filler words. Output only
+the translated English text, no explanations.
+
+--- PROMPT DO AGENTA (formatuje jako task): ---
+You receive a voice transcription of a developer describing a coding task.
+Convert it to a well-structured prompt for an AI coding agent.
+Fix errors, remove fillers, add structure if needed.
+Output only the final prompt, nothing else.
+```
+
+🎬 „Dlaczego lokalny model STT i nie chmura? Prywatność — to co mówicie do mikrofonu zostaje na waszej maszynie. Post-processing przez LLM wysyła tekst (już przetranscribowany), nie audio — to mniej wrażliwe.
+
+Teraz Ollama — modele lokalne. Jeśli chcecie post-processing bez chmury:"
+
+💬 WKLEJ NA CHAT:
+```
+Ollama — lokalne modele LLM (gratis):
+https://ollama.com/
+
+Instalacja:
+curl -fsSL https://ollama.com/install.sh | sh   # Linux/Mac
+winget install Ollama.Ollama                      # Windows
+
+Szybki start — model do post-processingu:
+ollama pull llama3.2:3b    ← mały, szybki, dobry do korekty tekstu
+ollama pull gemma3:4b      ← alternatywa od Google
+
+Uruchom jako lokalny endpoint:
+ollama serve
+→ dostępny na: http://localhost:11434
+
+Użycie w Handy lub Codex jako alternatywny endpoint:
+Base URL: http://localhost:11434/v1
+Model: llama3.2:3b
+```
+
+🎬 „Co ważne: Ollama i lokalne modele są świetne do prostych tasków: korekta tekstu, tłumaczenie, krótkie pytania. Do programowania — modele chmurowe są wciąż znacząco lepsze.
+
+I ostatnia rzecz — OpenRouter API Key."
+
+💬 WKLEJ NA CHAT:
+```
+OpenRouter API Key — już skonfigurowany na Waszych hostach!
+
+Gdzie: zmienna środowiskowa OPENROUTER_API_KEY (System Envs)
+Do czego: do aplikacji którą budujemy (AI Idea Validator)
+           → backend będzie używać tego klucza do callowania modeli
+
+Dostępne modele (tańsze, nie topowe):
+• meta-llama/llama-4-scout (szybki, dobry do chatów)
+• google/gemini-2.0-flash  (szybki, tani)
+• mistralai/mistral-small  (tani, dobry do prostych tasków)
+
+NIE do programowania z agentem — tam potrzebujecie własnych kont
+(ChatGPT Plus / Claude Code subskrypcja).
+
+OpenRouter docs: https://openrouter.ai/docs
+```
+
+🎬 „Czyli: klucz jest już w environment variables na waszych maszynach. Kiedy będziemy budować backend aplikacji — możecie go od razu użyć bez rejestracji. To jest celowe — nie chcę żebyście tracili czas na konfigurację kiedy mamy dużo do zrobienia.
+
+W kodzie Spring Boot dostaniecie do niego przez:
+`System.getenv('OPENROUTER_API_KEY')` albo Spring `@Value('\${OPENROUTER_API_KEY}')`.
+
+OK — teraz przerwa, a po niej research i wymagania projektu."
 
 ---
 
@@ -1067,9 +1219,11 @@ Do jutra! 👋
 | Vibe Coding (Karpathy) | https://x.com/karpathy/status/1886192184808149383 |
 | WezTerm instalacja | https://wezfurlong.org/wezterm/installation.html |
 | Handy STT (voice) | https://handy.computer/ |
+| Ollama (lokalne modele) | https://ollama.com/ |
+| OpenRouter | https://openrouter.ai/ |
+| OpenRouter docs | https://openrouter.ai/docs |
 | Perplexity | https://perplexity.ai |
 | Spring AI docs | https://docs.spring.io/spring-ai/reference/index.html |
-| OpenRouter | https://openrouter.ai/ |
 | Prompting techniques | https://www.promptingguide.ai/techniques |
 
 ---
