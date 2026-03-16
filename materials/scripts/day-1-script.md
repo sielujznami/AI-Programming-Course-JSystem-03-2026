@@ -62,6 +62,9 @@ Po Day 1 uczestnicy mają:
 - **Przełącznik S2→S1:** po technicznym bloku krótkie „co to daje jutro w Waszym zespole?”, żeby domknąć sens i motywację.
 
 ## 09:00–09:20 — Zoom onboarding + zasady pracy
+### Energy hook / humor cue
+- „Tryb misji: Zoom onboarding + zasady pracy. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Nawet najlepszy warsztat siada, jeśli komunikacja i rytm pracy są chaotyczne.
 - Dobre zasady od początku skracają przestoje, pytania „co teraz?” i techniczny hałas.
@@ -94,6 +97,9 @@ Po Day 1 uczestnicy mają:
 - 20 min
 
 ## 09:20–09:40 — Krótka runda zapoznawcza
+### Energy hook / humor cue
+- „Tryb misji: Krótka runda zapoznawcza. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Mieszana grupa (Java / DB / low-code / architektura) potrzebuje wspólnego obrazu poziomu i realnych pain pointów.
 - Dzięki temu łatwiej dobrać przykłady, tempo i poziom szczegółu.
@@ -123,6 +129,9 @@ Po Day 1 uczestnicy mają:
 - 20 min
 
 ## 09:40–10:00 — Anonimowy quiz AI basics
+### Energy hook / humor cue
+- „Tryb misji: Anonimowy quiz AI basics. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Bez diagnozy łatwo przestrzelić z poziomem: dla części grupy będzie za wolno, dla części za szybko.
 - Quiz daje wspólny język do pojęć, które później wpływają na jakość promptów i review.
@@ -153,6 +162,9 @@ Po Day 1 uczestnicy mają:
 - 20 min
 
 ## 10:00–10:25 — Mission kickoff: po co ten tydzień i po co ten workflow
+### Energy hook / humor cue
+- „Tryb misji: Mission kickoff: po co ten tydzień i po co ten workflow. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Ludzie wdrażają workflow nie dlatego, że jest „modny”, tylko dlatego, że widzą sens i przewagę w swojej codziennej pracy.
 - Potrzebujemy wspólnej odpowiedzi na pytanie: „co ja z tego realnie mam?”.
@@ -185,6 +197,9 @@ Po Day 1 uczestnicy mają:
 - 25 min
 
 ## 10:25–11:00 — Codex-first safe setup + pierwszy mały sukces
+### Energy hook / humor cue
+- „Tryb misji: Codex-first safe setup + pierwszy mały sukces. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Jeśli pierwszy kontakt z agentem jest zbyt trudny albo zbyt ryzykowny, zespół szybko wróci do starych nawyków.
 - Dobre wejście to mały, szybki sukces w bezpiecznych granicach.
@@ -219,6 +234,9 @@ Po Day 1 uczestnicy mają:
 ## 11:00–11:15 — PRZERWA
 
 ## 11:15–11:35 — Krótkie porównanie: Codex vs Claude vs IntelliJ AI Assistant
+### Energy hook / humor cue
+- „Tryb misji: Krótkie porównanie: Codex vs Claude vs IntelliJ AI Assistant. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Zespół musi wiedzieć, dlaczego wybieramy główny workflow, zamiast tonąć w tool sprawl.
 - Świadomy wybór narzędzia zmniejsza chaos i spory „czym to robić”.
@@ -251,6 +269,9 @@ Po Day 1 uczestnicy mają:
 - 20 min
 
 ## 11:35–12:05 — Projekt tygodnia i zakres MVP
+### Energy hook / humor cue
+- „Tryb misji: Projekt tygodnia i zakres MVP. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Agent bez jasnego zakresu produkuje chaos szybciej niż człowiek bez kawy.
 - Wyraźny MVP pomaga zamieniać pomysły w małe, widoczne slice’y.
@@ -282,6 +303,9 @@ Po Day 1 uczestnicy mają:
 - 30 min
 
 ## 12:05–13:00 — PRD + AGENTS mini-workshop
+### Energy hook / humor cue
+- „Tryb misji: PRD + AGENTS mini-workshop. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Dobra specyfikacja i zasady pracy z agentem skracają iteracje, poprawiają jakość i zmniejszają ilość losowych odpowiedzi.
 - To jest moment, w którym „promptowanie” zamienia się w inżynierię pracy.
@@ -315,6 +339,9 @@ Po Day 1 uczestnicy mają:
 ## 13:00–13:30 — PRZERWA
 
 ## 13:30–14:15 — Pierwszy widoczny artefakt repo
+### Energy hook / humor cue
+- „Tryb misji: Pierwszy widoczny artefakt repo. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Sam PRD nie daje jeszcze poczucia postępu. Widoczny artefakt tak.
 - Zespoły szybciej ufają workflow, gdy już pierwszego dnia widzą coś namacalnego.
@@ -346,6 +373,9 @@ Po Day 1 uczestnicy mają:
 - 45 min
 
 ## 14:15–14:30 — Review loop: generated draft ≠ truth
+### Energy hook / humor cue
+- „Tryb misji: Review loop: generated draft ≠ truth. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Największa wartość seniora nie znika przy AI — przesuwa się mocniej w stronę oceny, kontroli i decyzji.
 - Bez review AI daje szybkość, ale nie daje gwarancji trafności.
@@ -379,6 +409,9 @@ Po Day 1 uczestnicy mają:
 ## 14:30–14:40 — OPCJONALNA PRZERWA
 
 ## 14:40–15:20 — Dedykowany mini‑moduł WezTerm: ergonomia terminala, powiadomienia i TUI UX
+### Energy hook / humor cue
+- „Tryb misji: Dedykowany mini‑moduł WezTerm: ergonomia terminala, powiadomienia i TUI UX. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Nawet dobry agent workflow boli, jeśli obsługa środowiska jest męcząca i zbyt krucha.
 - Ergonomia wpływa na to, czy ludzie naprawdę wdrożą workflow po szkoleniu.
@@ -410,6 +443,9 @@ Po Day 1 uczestnicy mają:
 - 40 min
 
 ## 15:20–15:45 — Dedykowany mini‑moduł bezpieczeństwa: sandbox, WSL, bash vs PowerShell
+### Energy hook / humor cue
+- „Tryb misji: Dedykowany mini‑moduł bezpieczeństwa: sandbox, WSL, bash vs PowerShell. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - W środowisku enterprise największe ryzyko to nie wolniejszy kod, tylko szybki błąd z dużym zasięgiem.
 - Zespół musi umieć odróżnić wygodne środowisko pracy od realnej izolacji bezpieczeństwa.
@@ -443,6 +479,9 @@ Po Day 1 uczestnicy mają:
 - 25 min
 
 ## 15:45–16:00 — Podsumowanie dnia (bez obowiązkowej pracy domowej)
+### Energy hook / humor cue
+- „Tryb misji: Podsumowanie dnia (bez obowiązkowej pracy domowej). Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 ### Why this matters in daily work
 - Ludzie zapamiętują lepiej to, co nazwą, podsumują i zamkną konkretnym następnym krokiem.
 - Dzień bez domknięcia łatwo zamienia się w „coś tam było o AI”.

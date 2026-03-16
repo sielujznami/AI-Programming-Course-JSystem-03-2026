@@ -49,6 +49,12 @@ Po Day 3 uczestnicy mają:
 - **Przełącznik S2→S1:** po debugowaniu wracamy do narracji wartości („co to oszczędza w realnym projekcie”).
 
 ## 09:00–09:20 — Handoff z Day 2 i plan budowy na dziś
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (handoff z day 2 i plan budowy na dziś).
+
+### Energy hook / humor cue
+- „Tryb misji: Handoff z Day 2 i plan budowy na dziś. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Wczoraj zrobiliśmy coś bardzo niedocenianego: przygotowaliśmy architekturę, backlog i granice. Dzisiaj zbieramy za to nagrodę. Zamiast pytać AI: ‘zrób aplikację’, będziemy prowadzić je jak dobrego, szybkiego, ale czasem nadgorliwego stażystę z dostępem do terminala. Czyli z szacunkiem i z checklistą."
@@ -94,6 +100,12 @@ W realnych projektach nie wygrywa ten, kto wygeneruje najwięcej kodu, tylko ten
 ---
 
 ## 09:20–10:05 — Pierwszy slice: backend skeleton + kontrakt funkcjonalny
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (pierwszy slice: backend skeleton + kontrakt funkcjonalny).
+
+### Energy hook / humor cue
+- „Tryb misji: Pierwszy slice: backend skeleton + kontrakt funkcjonalny. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Zaczynamy od czegoś, co lubią i developerzy, i managerowie: mały kawałek, który da się opisać jednym zdaniem. Na przykład endpoint, serwis albo prosty przypadek użycia. Agent nie ma od razu pisać połowy systemu. Ma dowieźć mały, sprawdzalny kontrakt funkcjonalny."
@@ -139,6 +151,12 @@ Dobrze napisany prompt obniża liczbę poprawek, skraca czas pracy i daje lepszy
 ---
 
 ## 10:05–11:00 — Warstwa danych i bezpieczne decyzje implementacyjne
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (warstwa danych i bezpieczne decyzje implementacyjne).
+
+### Energy hook / humor cue
+- „Tryb misji: Warstwa danych i bezpieczne decyzje implementacyjne. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Drugi krok to dane, bo wiele aplikacji wygląda pięknie, dopóki nie trzeba zapisać czegoś sensownego i odtworzyć decyzji po tygodniu. W środowisku bankowym pytanie nie brzmi tylko ‘czy działa?’, ale też ‘czy wiemy, co się stało, dlaczego i gdzie to sprawdzić?’."
@@ -186,10 +204,22 @@ W praktyce najwięcej bólu pojawia się później tam, gdzie dane były potrakt
 ---
 
 ## 11:00–11:15 — Przerwa
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (przerwa).
+
+### Energy hook / humor cue
+- „Tryb misji: Przerwa. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ---
 
 ## 11:15–12:05 — Podłączenie prostego UI i przepływu end-to-end
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (podłączenie prostego ui i przepływu end-to-end).
+
+### Energy hook / humor cue
+- „Tryb misji: Podłączenie prostego UI i przepływu end-to-end. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Teraz robimy coś bardzo ważnego psychologicznie: domykamy pierwszy przepływ end-to-end. Nawet prosty ekran i podstawowe połączenie z backendem zmieniają odbiór projektu. Nagle przestajemy mówić o potencjale, a zaczynamy pokazywać działanie."
@@ -234,6 +264,12 @@ W codziennej pracy działający przepływ end-to-end szybciej przekonuje interes
 ---
 
 ## 12:05–13:00 — Pętla bezpiecznej iteracji: diff, test, poprawka, commit
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (pętla bezpiecznej iteracji: diff, test, poprawka, commit).
+
+### Energy hook / humor cue
+- „Tryb misji: Pętla bezpiecznej iteracji: diff, test, poprawka, commit. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "To jest najważniejszy nawyk dnia: nie generujemy i nie wierzymy. Generujemy i sprawdzamy. AI nie zastępuje odpowiedzialności inżynierskiej. Ono przyspiesza pracę, ale to my decydujemy, czy diff ma sens, czy test jest wystarczający i czy commit opisuje realną zmianę."
@@ -281,10 +317,22 @@ To jest dokładnie ten moment, który odróżnia dojrzały workflow AI od chaosu
 ---
 
 ## 13:00–13:30 — Przerwa obiadowa
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (przerwa obiadowa).
+
+### Energy hook / humor cue
+- „Tryb misji: Przerwa obiadowa. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ---
 
 ## 13:30–14:20 — Debugging z AI: diagnoza błędów bez utraty kontroli
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (debugging z ai: diagnoza błędów bez utraty kontroli).
+
+### Energy hook / humor cue
+- „Tryb misji: Debugging z AI: diagnoza błędów bez utraty kontroli. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Po obiedzie robimy coś bardziej życiowego niż idealny greenfield: błędy. I bardzo dobrze, bo prawdziwa wartość AI nie wychodzi wtedy, gdy wszystko działa, tylko wtedy, gdy umiemy szybciej zawęzić problem, zrozumieć przyczynę i poprawić go bez psucia innych rzeczy."
@@ -330,6 +378,12 @@ W pracy najwięcej czasu znika nie na napisanie happy path, ale na znalezienie, 
 ---
 
 ## 14:20–14:30 — Krótkie porównanie: Codex vs Claude vs IntelliJ + mikro‑moduł WezTerm
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (krótkie porównanie: codex vs claude vs intellij + mikro‑moduł wezterm).
+
+### Energy hook / humor cue
+- „Tryb misji: Krótkie porównanie: Codex vs Claude vs IntelliJ + mikro‑moduł WezTerm. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Core naszego kursu pozostaje prosty: Codex-first. To jest świadoma decyzja, żeby nie rozproszyć grupy. Ale uczciwie pokazujemy też, gdzie inne narzędzia mogą być sensowne jako uzupełnienie, a nie nowa religia technologiczna."
@@ -378,10 +432,22 @@ Uczestnicy widzą szerszy krajobraz narzędzi, ale nadal wychodzą z jedną spó
 ---
 
 ## 14:30–14:40 — Opcjonalna krótka przerwa
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (opcjonalna krótka przerwa).
+
+### Energy hook / humor cue
+- „Tryb misji: Opcjonalna krótka przerwa. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ---
 
 ## 14:40–15:25 — Refaktoryzacja i porządkowanie kodu pod Day 4
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (refaktoryzacja i porządkowanie kodu pod day 4).
+
+### Energy hook / humor cue
+- „Tryb misji: Refaktoryzacja i porządkowanie kodu pod Day 4. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Gdy pierwszy przepływ działa, pojawia się pokusa, żeby ogłosić zwycięstwo i uciec w stronę demo. Ale to właśnie teraz warto zrobić mały porządek. Refaktoryzacja po pierwszej iteracji nie jest luksusem. To moment, w którym oddzielamy kod ‘już działa’ od kodu ‘da się z tym żyć jutro’."
@@ -427,6 +493,12 @@ To właśnie tutaj rodzi się dług techniczny albo jego brak. Mały porządek d
 ---
 
 ## 15:25–16:00 — Demo postępu, decyzje architektoniczne i handoff do Day 4
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (demo postępu, decyzje architektoniczne i handoff do day 4).
+
+### Energy hook / humor cue
+- „Tryb misji: Demo postępu, decyzje architektoniczne i handoff do Day 4. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Na koniec dnia nie robimy maratonu kolejnych zmian. Zatrzymujemy się i porządkujemy to, co już mamy. Pokazujemy działający fragment, przypominamy decyzje, które podjęliśmy, i świadomie zapisujemy, co wchodzi do Day 4: testy, quality gate, security i legacy thinking."

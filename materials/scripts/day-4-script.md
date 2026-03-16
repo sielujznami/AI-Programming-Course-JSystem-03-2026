@@ -47,6 +47,12 @@ Po Day 4 uczestnicy mają:
 - **Przełącznik S2→S1:** po ciężkich blokach quality wracamy do „jak to obronić przed audytem i biznesem” prostym językiem.
 
 ## 09:00–09:20 — Handoff z Day 3: co już działa i gdzie dziś grozi chaos
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (handoff z day 3: co już działa i gdzie dziś grozi chaos).
+
+### Energy hook / humor cue
+- „Tryb misji: Handoff z Day 3: co już działa i gdzie dziś grozi chaos. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Wczoraj zbudowaliśmy działający rdzeń. Dziś wchodzimy w etap, który odróżnia fajne demo od rozwiązania, którego nie boimy się pokazać zespołowi, liderowi albo audytorowi. AI świetnie przyspiesza start, ale bez jakości i bezpieczeństwa potrafi też przyspieszyć katastrofę. Bardzo efektywnie, rzecz jasna."
@@ -97,6 +103,12 @@ Najdroższy kod to nie ten, którego nie ma. Najdroższy jest ten, który „dzi
 ---
 
 ## 09:20–10:05 — Testy z AI: od kryteriów akceptacji do sensownych test cases
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (testy z ai: od kryteriów akceptacji do sensownych test cases).
+
+### Energy hook / humor cue
+- „Tryb misji: Testy z AI: od kryteriów akceptacji do sensownych test cases. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Z testami AI ma dwie supermoce i jedną wadę. Supermoce: szybko produkuje dużo wariantów i nie nudzi się przy edge-case’ach. Wada: potrafi wygenerować testy, które wyglądają profesjonalnie, a realnie sprawdzają tyle, co parasol na dnie basenu. Dlatego zaczynamy od kryteriów akceptacji, nie od samego kodu testów."
@@ -144,6 +156,12 @@ Dobre testy oszczędzają czas dopiero wtedy, gdy są osadzone w ryzyku i logice
 ---
 
 ## 10:05–11:00 — Review wygenerowanego kodu: diff, ryzyka, feedback do agenta
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (review wygenerowanego kodu: diff, ryzyka, feedback do agenta).
+
+### Energy hook / humor cue
+- „Tryb misji: Review wygenerowanego kodu: diff, ryzyka, feedback do agenta. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Największy błąd przy pracy z agentem to nie to, że model coś źle wymyślił. Największy błąd to przestać czytać diff. Gdy AI zaczyna działać szybko, rośnie pokusa: ‘wygląda sensownie, to lecimy dalej’. I wtedy pojawia się ten klasyczny moment: wszystko było świetnie, dopóki nie zajrzał ktoś trzeci."
@@ -198,10 +216,22 @@ Największa oszczędność czasu nie bierze się z tego, że agent wygeneruje 50
 ---
 
 ## 11:00–11:15 — Przerwa
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (przerwa).
+
+### Energy hook / humor cue
+- „Tryb misji: Przerwa. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ---
 
 ## 11:15–12:05 — Security i audyt: jak nie zachwycić się kodem, który właśnie otworzył wszystkie drzwi
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (security i audyt: jak nie zachwycić się kodem, który właśnie otworzył wszystkie drzwi).
+
+### Energy hook / humor cue
+- „Tryb misji: Security i audyt: jak nie zachwycić się kodem, który właśnie otworzył wszystkie drzwi. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "To jest ten fragment, w którym przypominamy sobie, że ‘działa’ i ‘jest bezpieczne’ to nie synonimy. AI bardzo chętnie pomoże nam napisać endpoint, który pięknie przyjmuje dane, zapisuje je do bazy i jeszcze szeroko otwiera okno na SQL injection, zbyt szerokie uprawnienia albo wyciek danych do logów. Z energią godną juniora po trzech energetykach."
@@ -254,6 +284,12 @@ Wiele zespołów boi się AI nie dlatego, że modele są słabe, tylko dlatego, 
 ---
 
 ## 12:05–13:00 — Legacy code z agentem: od strachu do kontrolowanej refaktoryzacji
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (legacy code z agentem: od strachu do kontrolowanej refaktoryzacji).
+
+### Energy hook / humor cue
+- „Tryb misji: Legacy code z agentem: od strachu do kontrolowanej refaktoryzacji. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Legacy to nie jest kod stary. Legacy to kod, którego boimy się ruszyć. A skoro się boimy, to kuszące staje się marzenie: może AI nam to wszystko magicznie uporządkuje. Niestety, jeśli wrzucimy agentowi zbyt duży i zbyt mętny problem, dostaniemy nowoczesny bałagan w nowym opakowaniu."
@@ -303,10 +339,22 @@ W większości firm największy zwrot z AI nie pojawi się przy greenfieldzie, t
 ---
 
 ## 13:00–13:30 — Przerwa obiadowa
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (przerwa obiadowa).
+
+### Energy hook / humor cue
+- „Tryb misji: Przerwa obiadowa. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ---
 
 ## 13:30–14:20 — CI/CD i automatyzacja: cloud-max vs on-prem bez bajek dla zarządu
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (ci/cd i automatyzacja: cloud-max vs on-prem bez bajek dla zarządu).
+
+### Energy hook / humor cue
+- „Tryb misji: CI/CD i automatyzacja: cloud-max vs on-prem bez bajek dla zarządu. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Po jakości lokalnej przychodzi pytanie: jak to przenieść do procesu zespołowego? I tu często pojawia się magia slajdów: na konferencji wszystko samo się buduje, samo testuje, samo reviewuje, a na końcu jeszcze samo odpowiada za incydenty. My pokażemy to uczciwie: co dziś da się zrobić łatwo w cloud, a co wymaga więcej pracy w środowisku on-prem."
@@ -357,6 +405,12 @@ Największa blokada wdrożenia AI w firmach rzadko jest techniczna. Zwykle chodz
 ---
 
 ## 14:20–14:30 — Krótkie porównanie: kiedy warto wspomnieć Claude Code lub IntelliJ AI Assistant
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (krótkie porównanie: kiedy warto wspomnieć claude code lub intellij ai assistant).
+
+### Energy hook / humor cue
+- „Tryb misji: Krótkie porównanie: kiedy warto wspomnieć Claude Code lub IntelliJ AI Assistant. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Główny workflow kursu pozostaje Codex-first. Ale warto uczciwie pokazać, że rynek nie kończy się na jednym narzędziu. Claude Code bywa mocny w analizie i iteracjach tekstowo-kodowych, IntelliJ AI Assistant dobrze wpisuje się w środowiska JetBrains. Tylko nie robimy z tego festiwalu zakładek i benchmarków."
@@ -403,10 +457,22 @@ To zmniejsza lęk przed zmianą narzędzi i ułatwia adaptację do polityk firmy
 ---
 
 ## 14:30–14:40 — Opcjonalna krótka przerwa
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (opcjonalna krótka przerwa).
+
+### Energy hook / humor cue
+- „Tryb misji: Opcjonalna krótka przerwa. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ---
 
 ## 14:40–15:25 — Warsztat naprawczy: poprawki po testach, review i security findings
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (warsztat naprawczy: poprawki po testach, review i security findings).
+
+### Energy hook / humor cue
+- „Tryb misji: Warsztat naprawczy: poprawki po testach, review i security findings. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "To jest najważniejszy moment dnia, bo tutaj pokazujemy dojrzałość procesu. Nie chodzi o to, żeby każda pierwsza odpowiedź agenta była idealna. Chodzi o to, żeby po testach, review i security checku umieć wykonać jedną, dwie sensowne iteracje naprawcze bez rozsadzania całego rozwiązania."
@@ -454,6 +520,12 @@ Właśnie tutaj AI zaczyna dawać realne oszczędności zespołowe: szybkie popr
 ---
 
 ## 15:25–16:00 — Podsumowanie jakościowe i handoff do Day 5 demo
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (podsumowanie jakościowe i handoff do day 5 demo).
+
+### Energy hook / humor cue
+- „Tryb misji: Podsumowanie jakościowe i handoff do Day 5 demo. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Dziś przeszliśmy drogę od ‘mamy działający slice’ do ‘mamy proces, który daje zaufanie’. To jest ogromna różnica. W praktyce firmy nie wdrażają AI dlatego, że ktoś zrobił imponujące demo. Wdrażają je wtedy, gdy zespół potrafi pokazać kontrolę: testy, review, bezpieczeństwo, ślad decyzji i sensowny plan wdrożeniowy."

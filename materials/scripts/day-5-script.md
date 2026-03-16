@@ -48,6 +48,12 @@ Po Day 5 uczestnicy mają:
 - **Przełącznik S2→S1:** po analizie wracamy do planu 30 dni i efektów, które zespół zobaczy od razu.
 
 ## 09:00–09:20 — Wejście w Day 5: z „działa” do „umiem to obronić i wdrożyć”
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (wejście w day 5: z „działa” do „umiem to obronić i wdrożyć”).
+
+### Energy hook / humor cue
+- „Tryb misji: Wejście w Day 5: z „działa” do „umiem to obronić i wdrożyć”. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Wczoraj dopięliśmy jakość, review, bezpieczeństwo i legacy. Dziś nie robimy już wyścigu na kolejne ficzery. Day 5 jest o czymś dużo bardziej praktycznym: jak pokazać efekt, jak opowiedzieć decyzje techniczne i jak wrócić po szkoleniu do pracy z planem, zamiast z pięknym chaosem."
@@ -95,6 +101,12 @@ Najlepsze szkolenie to nie takie, po którym uczestnik mówi „było inspirują
 ---
 
 ## 09:20–10:05 — Finałowe demo rozwiązania: narracja, nie tylko ekran
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (finałowe demo rozwiązania: narracja, nie tylko ekran).
+
+### Energy hook / humor cue
+- „Tryb misji: Finałowe demo rozwiązania: narracja, nie tylko ekran. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Dobre demo nie polega na tym, że klikamy szybko i modlimy się, żeby nic się nie wysypało. Dobre demo ma narrację: jaki problem rozwiązujemy, dla kogo, co działa, jakie decyzje podjęliśmy i czego świadomie jeszcze nie robimy. AI może pomóc zbudować demo szybciej, ale to człowiek nadaje mu sens."
@@ -146,6 +158,12 @@ W realnym świecie decyzje zapadają nie tylko na podstawie kodu, ale też na po
 ---
 
 ## 10:05–11:00 — Decyzje techniczne i kompromisy: jak mówić o nich jasno i spokojnie
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (decyzje techniczne i kompromisy: jak mówić o nich jasno i spokojnie).
+
+### Energy hook / humor cue
+- „Tryb misji: Decyzje techniczne i kompromisy: jak mówić o nich jasno i spokojnie. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Na kursie łatwo wpaść w pułapkę: skoro coś dało się zbudować szybko, to znaczy, że nie było trudnych decyzji. Były. Po prostu część z nich podjęliśmy świadomie, a część świadomie odłożyliśmy. I to jest bardzo ważna kompetencja: umieć powiedzieć nie tylko ‘co zrobiliśmy’, ale też ‘czego nie zrobiliśmy jeszcze i dlaczego’."
@@ -193,10 +211,22 @@ Zespoły szybciej akceptują użycie AI, gdy widzą nie tylko rezultat, ale też
 ---
 
 ## 11:00–11:15 — Przerwa
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (przerwa).
+
+### Energy hook / humor cue
+- „Tryb misji: Przerwa. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ---
 
 ## 11:15–12:05 — Cloud-max vs on-prem/local models: dwa światy, jedna metodyka
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (cloud-max vs on-prem/local models: dwa światy, jedna metodyka).
+
+### Energy hook / humor cue
+- „Tryb misji: Cloud-max vs on-prem/local models: dwa światy, jedna metodyka. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "To jest jeden z najważniejszych fragmentów całego kursu. Chcemy uczciwie pokazać dwa światy. Pierwszy: ‘max możliwości’ — chmura, wygodne logowanie, szybkie modele, integracje, często najlepsze UX. Drugi: ‘realia organizacji’ — on-prem, lokalne modele, proxy, własne endpointy, approvale, compliance, mniejsza wygoda, ale większa kontrola."
@@ -252,6 +282,12 @@ Wiele szkoleń pokazuje tylko idealny świat. Tutaj uczestnik ma zobaczyć, jak 
 ---
 
 ## 12:05–13:00 — Agentic workflows i MCP: co warto wdrożyć, a czego dziś nie komplikować
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (agentic workflows i mcp: co warto wdrożyć, a czego dziś nie komplikować).
+
+### Energy hook / humor cue
+- „Tryb misji: Agentic workflows i MCP: co warto wdrożyć, a czego dziś nie komplikować. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Na koniec tygodnia naturalnie pojawia się pytanie: skoro agent potrafi robić coraz więcej, to może od razu podłączmy wszystko — repo, Jira, CI, dokumentację, bazy, Slacka, Teamsy i jeszcze ekspres do kawy, żeby miał pełny kontekst. Odpowiedź brzmi: spokojnie. Agentic workflows są potężne, ale warto je wdrażać warstwowo."
@@ -300,10 +336,22 @@ Najskuteczniejsze wdrożenia AI zwykle zaczynają się od jednego dobrze dobrane
 ---
 
 ## 13:00–13:30 — Przerwa obiadowa
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (przerwa obiadowa).
+
+### Energy hook / humor cue
+- „Tryb misji: Przerwa obiadowa. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ---
 
 ## 13:30–14:20 — Plan wdrożenia po szkoleniu: pierwsze 30 dni w zespole
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (plan wdrożenia po szkoleniu: pierwsze 30 dni w zespole).
+
+### Energy hook / humor cue
+- „Tryb misji: Plan wdrożenia po szkoleniu: pierwsze 30 dni w zespole. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "To jest chyba najpraktyczniejszy blok całego tygodnia. Nie chcemy, żeby po szkoleniu zostało pięć notatek, dziesięć screenshotów i jedna szlachetna myśl, że ‘musimy kiedyś wdrożyć AI’. Chcemy planu na 30 dni: mały pilot, jasny zakres, konkretna metryka, konkretne ryzyko, konkretne osoby."
@@ -356,6 +404,12 @@ Wdrożenia nie umierają dlatego, że brakuje pomysłów. Umierają dlatego, że
 ---
 
 ## 14:20–14:30 — Krótkie porównanie: gdzie jeszcze mieszczą się Claude Code i IntelliJ AI Assistant
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (krótkie porównanie: gdzie jeszcze mieszczą się claude code i intellij ai assistant).
+
+### Energy hook / humor cue
+- „Tryb misji: Krótkie porównanie: gdzie jeszcze mieszczą się Claude Code i IntelliJ AI Assistant. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Przez cały tydzień trzymaliśmy się ścieżki Codex-first, bo kurs potrzebuje jednego głównego workflowu. To była świadoma decyzja dydaktyczna, nie religia narzędziowa. Warto jednak umieć uczciwie powiedzieć, gdzie mieszczą się inne opcje."
@@ -402,10 +456,22 @@ Tool sprawl zjada uwagę szybciej niż brak narzędzi. Jeden mocny workflow jest
 ---
 
 ## 14:30–14:40 — Opcjonalna krótka przerwa
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (opcjonalna krótka przerwa).
+
+### Energy hook / humor cue
+- „Tryb misji: Opcjonalna krótka przerwa. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ---
 
 ## 14:40–15:25 — Warsztat końcowy: mini-playbook dla własnego środowiska uczestnika
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (warsztat końcowy: mini-playbook dla własnego środowiska uczestnika).
+
+### Energy hook / humor cue
+- „Tryb misji: Warsztat końcowy: mini-playbook dla własnego środowiska uczestnika. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Teraz robimy coś, co bardzo lubię na końcu szkoleń: zamiast zostawiać wszystko w głowie, zamieniamy wiedzę na mały playbook. Nie wielką strategię AI transformacji, tylko praktyczny dokument: jaki typ zadań, jakie narzędzie, jakie zasady, jakie approvale, jaka metryka, jakie ryzyka. Tyle. I aż tyle."
@@ -461,6 +527,12 @@ Po kursie pamięć bywa selektywna, ale dobry artefakt zostaje. Mini-playbook zw
 ---
 
 ## 15:25–16:00 — Zamknięcie kursu: podsumowanie, pytania, „co dalej” i pozytywne domknięcie
+### Why this matters in daily work
+- Ten blok przekłada się bezpośrednio na szybszą i pewniejszą realizację zadań w codziennej pracy (zamknięcie kursu: podsumowanie, pytania, „co dalej” i pozytywne domknięcie).
+
+### Energy hook / humor cue
+- „Tryb misji: Zamknięcie kursu: podsumowanie, pytania, „co dalej” i pozytywne domknięcie. Mały krok, szybki efekt, zero heroicznego debugowania o 23:00.”
+
 
 ### Co mówię
 "Na początku tygodnia zaczynaliśmy od fundamentów, ostrożności i pytań. Dziś kończymy z działającym workflowem, wspólnym językiem i planem dalszych kroków. To nie znaczy, że od jutra wszystko będzie perfekcyjne. To znaczy, że macie sposób, żeby eksperymentować mądrze, a nie chaotycznie. I to już jest bardzo dużo."
