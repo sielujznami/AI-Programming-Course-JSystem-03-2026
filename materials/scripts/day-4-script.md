@@ -408,7 +408,7 @@ Trener zestawia 2–3 pipeline’y i wskazuje wspólny rdzeń oraz elementy zale
 - Jak przełożyć lokalne nawyki pracy na pipeline zespołowy.
 
 ### Dlaczego warto
-Największa blokada wdrożenia AI w firmach rzadko jest techniczna. Zwykle chodzi o zaufanie, governance i odpowiedzialność. Ten blok daje język do takich rozmów.
+Największa blokada wdrożenia AI w firmach rzadko jest wyłącznie techniczna (to verify w organizacji uczestników). Zwykle chodzi o zaufanie, governance i odpowiedzialność. Ten blok daje język do takich rozmów.
 
 ### Kahneman cues
 - S1: szybkie myślenie o „idealnym” pipeline.

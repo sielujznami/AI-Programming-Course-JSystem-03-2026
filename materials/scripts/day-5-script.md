@@ -334,7 +334,7 @@ Trener porównuje propozycje i pomaga odróżnić integracje wartościowe od „
 - Jak nie rozbudować ekosystemu szybciej niż dojrzałość zespołu.
 
 ### Dlaczego warto
-Najskuteczniejsze wdrożenia AI zwykle zaczynają się od jednego dobrze dobranego przypadku użycia, a nie od wielkiej architektury wszystkiego naraz.
+Najskuteczniejsze wdrożenia AI zwykle zaczynają się od jednego dobrze dobranego przypadku użycia, a nie od wielkiej architektury wszystkiego naraz (to verify w zespole uczestnika).
 
 ### Kahneman cues
 - S1: szybki entuzjazm wobec nowych możliwości.
