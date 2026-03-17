@@ -8,8 +8,10 @@
 ## Example prompt (not very precise and quite missleading) and result
 
 `$ ollama run a-kore/Arctic-Text2SQL-R1-7B --verbose`
->>> select users (name, id, email) and profiles (bio, experience) via user.profile_id and join with companies (name, logo, siz
-... e) by users_companies joint table, where users are from Poland (via profile.country) only
+>>> select users (name, id, email) and profiles (bio, experience) via user.profile_id and join with companies (name, logo, size) by users_companies joint table, where users are from Poland (via profile.country) only
+
+---
+
 Based on the schema provided in the reference solution, it seems there is an assumption that we have a relation between
 `users` and `companies` through `user_companies`. Since the question specifically mentions joining with companies
 through user.profile_id and users_companies joint table, which suggests a possible misalignment of the original
@@ -17,7 +19,9 @@ structure, I'll assume that’s indeed a part of our task. Furthermore, to answe
 tables: users, profiles (through profile_id), and companies via users_companies for those users whose country is Poland
 based on their profiles.
 </think>
+
 <action>
+
 ```sql
 SELECT
     u.name AS user_name,
@@ -43,7 +47,9 @@ users_companies.user_id = users.id, user_companies.company_id = companies.id).
 `profiles.country` matching 'Poland'.
 
 The above SQL accurately translates the question into a query.
+
 </action>
+
 This should correctly answer the given natural language question while adhering to the schema provided and ensuring all
 necessary conditions are met.
 
