@@ -13,8 +13,6 @@ Read the relevant sections before implementing. If code, comments, config, or do
 - `backend/AGENTS.md` - backend-specific rules
 - `frontend/AGENTS.md` - frontend-specific rules
 
-These files are placeholders today, but agents must check them before working in those areas and follow them once they are populated.
-
 ## Current Stack
 - Backend: Spring Boot `3.5.9`, Java `21`, Maven, Spring AI `1.1.0`, LangGraph4j `1.8.8`, AG-UI Java SDK `0.0.1`
 - Frontend: Next.js `15.4.8`, React `18.3.1`, TypeScript `5`, CopilotKit `1.53.0`, AG-UI client `0.0.35`, Tailwind CSS `4`
@@ -26,7 +24,9 @@ These files are placeholders today, but agents must check them before working in
 - `docs/` - PRD, ADR/implementation plan, design system
 - `scripts/` - setup and local run scripts for Windows and Bash
 - `docker/` - PostgreSQL init assets for `compose.yaml`
-- `ag-ui/` - external submodule; do not modify unless the task explicitly requires it
+- `ag-ui/` - Git submodule with the AG-UI community Java SDK used by the newer `langgraph4j-copilotkit` template; it is external source code, not part of this app, and should not be modified unless the task explicitly targets the SDK integration itself
+
+This project uses the newer `langgraph4j-copilotkit` template approach, where AG-UI behavior comes from the community Java SDK instead of a custom in-repo AG-UI protocol implementation. That SDK exposes the agent/UI integration layer, including the agent-driven UI control model used by the app.
 
 Frontend structure will grow beyond the current starter shape. Keep new code organized and predictable as the app expands: separate route files, reusable UI components, domain logic, and tests instead of letting everything accumulate inside `src/app/page.tsx`.
 
@@ -80,16 +80,20 @@ Use the real commands that exist in the repo today:
 - Frontend install: `cd frontend; npm install`
 - Frontend lint: `cd frontend; npm run lint`
 - Frontend build: `cd frontend; npm run build`
+- Frontend unit/integration tests: `cd frontend; npm run test`
+- Frontend E2E tests: `cd frontend; npm run test:e2e`
 - Frontend run check: `cd frontend; npm run dev`
+- Full app scripted setup: `powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup-copilot-template.ps1` or `bash ./scripts/setup-copilot-template.sh`
+- Full app scripted start: `powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\start-copilot-template.ps1` or `bash ./scripts/start-copilot-template.sh`
+- One-command setup and start: `powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\run-copilot-template.ps1` or `bash ./scripts/run-copilot-template.sh`
 
-Do not claim `npm run test` or E2E verification unless that tooling and script actually exist. When user-visible frontend behavior changes, add or update automated tests as the frontend test stack is introduced.
+Frontend work is expected to use Vitest for unit/integration coverage and Playwright for E2E coverage. If the required test scripts or configuration are missing for the task, add them instead of skipping tests.
 
 ## Coding Standards
 - Follow existing conventions in each area instead of inventing a new style.
-- Java uses tabs, `PascalCase` classes, and packages under `com.silkycoders1.jsystemssilkycodders1`.
-- TypeScript and React use 2-space indentation, `PascalCase` components, and camelCase functions and variables.
 - Keep secrets in environment variables only. Never commit credentials, tokens, `.env` secrets, or local database artifacts.
 - Remove outdated or misleading instructions when you find them; do not leave contradictory project files behind.
+- When you learn from a mistake, update the most specific relevant `AGENTS.md` file so the same mistake is less likely to happen again. Prefer nested specialist files over expanding the root file.
 
 ## Completion Criteria
 A task is complete only when:
