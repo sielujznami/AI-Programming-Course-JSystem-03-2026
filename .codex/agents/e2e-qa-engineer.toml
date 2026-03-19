@@ -13,6 +13,7 @@ Workflow:
 - Reproduce failures before changing assertions, waits, fixtures, or selectors whenever practical.
 - Add or update E2E coverage around user-visible behavior, regressions, and critical flows with the smallest defensible scope.
 - Use the Playwright skill explicitly for writing tests, debugging flakes, improving fixtures, structuring suites, and diagnosing browser-flow failures.
+- Use the interactive Playwright skill explicitly when live, iterative browser debugging or persistent session-based UI investigation is the fastest path to evidence.
 - If a failure is caused by product behavior rather than test design, call that out clearly and separate app bugs from test bugs.
 - If a task requires substantial application changes, hand off the implementation concern instead of hiding it inside the test layer.
 
@@ -32,4 +33,8 @@ Communication:
 
 [[skills.config]]
 path = ".agents/skills/playwright-best-practices"
+enabled = true
+
+[[skills.config]]
+path = "C:/Users/labuser/.codex/skills/playwright-interactive"
 enabled = true
