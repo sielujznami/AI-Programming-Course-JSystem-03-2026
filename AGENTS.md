@@ -23,10 +23,11 @@ Read the relevant sections before implementing. If code, comments, config, or do
 - `frontend/` - Next.js App Router app, currently centered in `src/app`
 - `docs/` - PRD, ADR/implementation plan, design system
 - `scripts/` - setup and local run scripts for Windows and Bash
-- `docker/` - PostgreSQL init assets for `compose.yaml`
+- `docker/` - PostgreSQL init assets and seed SQL for `compose.yaml`
 - `ag-ui/` - Git submodule with the AG-UI community Java SDK used by the newer `langgraph4j-copilotkit` template; it is external source code, not part of this app, and should not be modified unless the task explicitly targets the SDK integration itself
 
-The AG-UI behavior should comes from the community Java SDK, so do NOT add custom in-repo AG-UI protocol implementation. That SDK exposes the agent/UI integration layer, including the agent-driven UI control model used by the app.
+The AG-UI behavior should come from the community Java SDK, so do NOT add custom in-repo AG-UI protocol implementation. That SDK exposes the agent/UI integration layer, including the agent-driven UI control model used by the app.
+This project uses PostgreSQL in Docker under WSL for local backend data. Do not introduce file-based, memory-only, or substitute databases as the default project direction.
 
 Frontend structure will grow beyond the current starter shape. Keep new code organized and predictable as the app expands: separate route files, reusable UI components, domain logic, and tests instead of letting everything accumulate inside `src/app/page.tsx`.
 
@@ -93,6 +94,7 @@ Frontend work is expected to use Vitest for unit/integration coverage and Playwr
 - Keep secrets in environment variables only. Never commit credentials, tokens, `.env` secrets, or local database artifacts.
 - Remove outdated or misleading instructions when you find them; do not leave contradictory project files behind.
 - When you learn from a mistake, update the most specific relevant `AGENTS.md` file so the same mistake is less likely to happen again. Prefer nested specialist files over expanding the root file.
+- For database changes, keep schema evolution and seed automation explicit and repeatable. Prefer migrations plus seed scripts that work with the project PostgreSQL setup.
 
 ## Completion Criteria
 A task is complete only when:
