@@ -44,6 +44,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 FRONTEND_PORT="${PORT:-3000}"
 BACKEND_PORT="${SERVER_PORT:-8080}"
+LOGS_DIR="$REPO_ROOT/logs"
 
 backend_pid=""
 frontend_pid=""
@@ -71,9 +72,11 @@ trap cleanup EXIT INT TERM
 
 cd "$REPO_ROOT"
 ensure_java
+mkdir -p "$LOGS_DIR"
 
 log "Backend URL: http://localhost:$BACKEND_PORT"
 log "Frontend URL: http://localhost:$FRONTEND_PORT"
+log "Logs directory: $LOGS_DIR"
 log "Press Ctrl+C to stop both processes."
 
 if [ -f ./mvnw ] && [ -f ./pom.xml ]; then

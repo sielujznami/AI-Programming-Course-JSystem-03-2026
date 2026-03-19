@@ -119,6 +119,7 @@ function Stop-ManagedProcess {
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $frontendPort = if ($env:PORT) { $env:PORT } else { "3000" }
 $backendPort = if ($env:SERVER_PORT) { $env:SERVER_PORT } else { "8080" }
+$logsDir = Join-Path $repoRoot "logs"
 
 $backendProcess = $null
 $frontendProcess = $null
@@ -127,9 +128,11 @@ Push-Location $repoRoot
 
 try {
     Initialize-Java
+    New-Item -ItemType Directory -Force -Path $logsDir | Out-Null
 
     Write-Info "Backend URL: http://localhost:$backendPort"
     Write-Info "Frontend URL: http://localhost:$frontendPort"
+    Write-Info "Logs directory: $logsDir"
     Write-Info "Press Ctrl+C to stop both processes."
 
     if ((Test-Path ".\mvnw.cmd") -and (Test-Path ".\pom.xml")) {
