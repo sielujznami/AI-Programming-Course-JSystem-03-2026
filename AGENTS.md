@@ -28,7 +28,16 @@
 ## Testing Guidelines
 - Backend tests use JUnit 5 via `spring-boot-starter-test`.
 - Keep Java test classes next to the matching package under `backend/src/test/java` and suffix them with `Tests`.
-- Frontend has linting configured, but no dedicated test suite yet. Run `npm run lint` and `npm run build` for UI changes.
+- On Frontend Run `npm run lint` and `npm run build` for UI changes. Then run `npm run test`.
+
+## Definition of Done
+- Apply these checks to small, granular changes so every step has a working state and a clear Git history that is easy to review or revert.
+- For every new functionality, use TDD. On both frontend and backend, start from adding tests based on the specification if they do not already exist, and only then implement the functionality.
+- Before considering any part of a task done, verify that linting passes with no errors.
+- Before considering any part of a task done, verify that the changed scope builds and starts correctly for the part being worked on: backend, frontend, or both.
+- Before considering any part of a task done, verify that all relevant tests pass.
+- Before considering any part of a task done, verify that there are no errors, warnings, or similar issues in the affected scope.
+- Only after all of the checks above pass may the agent create a commit and treat that part of the task as completed.
 
 ## Commit & Pull Request Guidelines
 - Recent history favors short, imperative messages such as `Fix local setup and start scripts`; occasional Conventional Commits like `feat: add ...` are also present.
