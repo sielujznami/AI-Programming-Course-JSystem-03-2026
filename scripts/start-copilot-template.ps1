@@ -150,7 +150,7 @@ try {
         $backendProcess = Start-ManagedProcess `
             -Name "BE" `
             -FilePath "cmd.exe" `
-            -Arguments @("/c", ".\mvnw.cmd", "spring-boot:run") `
+            -Arguments @("/c", ".\mvnw.cmd", "clean", "spring-boot:run") `
             -WorkingDirectory (Join-Path $repoRoot "backend")
     }
     else {
