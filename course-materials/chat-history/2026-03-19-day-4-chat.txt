@@ -1,0 +1,166 @@
+2026-03-19 08:18:52 From JSystems Szkolenia to Everyone:
+	https://developers.openai.com/codex/config-advanced Ollama w Codex CLI
+	
+2026-03-19 08:19:16 From JSystems Szkolenia to Everyone:
+	GitHub Copilot w IntelliJJava app modernization:https://plugins.jetbrains.com/plugin/28791-github-copilot-modernization
+	
+2026-03-19 08:55:23 From Michal to Everyone:
+	
+	Zmieniam taktykę jeszcze raz: uruchamiam oba serwisy przez osobne cmd.exe /k, bez przekierowań. To omija problemy PowerShella z procesami potomnymi w tym środowisku i zwykle działa stabilnie na Windows.
+	
+2026-03-19 09:23:02 From JSystems Szkolenia to Everyone:
+	edytuj swój włąsny plik ~/.codex/config.toml i dodaj server MCP zgodnie z poniższą konfiguracją:
+	
+2026-03-19 09:23:34 From JSystems Szkolenia to Everyone:
+	Mój config MCP IntelliJ:{"type": "stdio","env": {"IJ_MCP_SERVER_PORT": "64342"},"command": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\jbr\\bin\\java","args": ["-classpath","C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\plugins\\mcpserver\\lib\\mcpserver-frontend.jar;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\lib\\util-8.jar;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\lib\\module-intellij.libraries.ktor.client.cio.jar;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\lib\\module-intellij.libraries.ktor.client.jar;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\lib\\module-intellij.libraries.ktor.network.tls.jar;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\lib\\module-intellij.libraries.ktor.io.jar;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\lib\\module-intellij.libraries.ktor.utils.jar;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\lib\\module-intellij.libraries.kotlinx.io.jar;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\lib\\module-intellij.libraries.kotlinx.serialization.core.jar;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\lib\\module-intellij.libraries.kotlinx.serialization.json.jar","com.intellij.mcpserver.stdio.McpStdioRunnerKt"]}
+	
+2026-03-19 09:29:09 From JSystems Szkolenia to Everyone:
+	{4D6591BF-5009-4A36-9CF1-83110B496E96}.png
+	
+2026-03-19 09:32:16 From JSystems Szkolenia to Everyone:
+	C:\Users\labuser\.codex\config.toml
+	
+2026-03-19 09:34:08 From JSystems Szkolenia to Everyone:
+	mcp_servers.intellij-ide
+	
+2026-03-19 09:35:12 From JSystems Szkolenia to Everyone:
+	[mcp_servers.intellij-ide]
+	
+2026-03-19 09:47:41 From JSystems Szkolenia to Everyone:
+	https://www.jetbrains.com/help/idea/mcp-server.html
+	
+2026-03-19 09:50:25 From JSystems Szkolenia to Everyone:
+	Jakie pliki mam otwarte w IntelliJ - użyj intellij-ide MCP
+	
+2026-03-19 09:54:20 From Wawrzyniec Suleja to JSystems Szkolenia (direct message):
+	Tak żeby nie było, że tylko pyskuję. Teraz jest super.
+	
+2026-03-19 09:54:21 From JSystems Szkolenia to Everyone:
+	Użyj MCP intellij-ide i wykryj jakie są problemy z plikami w naszym projekcie, np. widzę warning w pliku backend\pom.xml
+	
+2026-03-19 10:13:07 From JSystems Szkolenia to Everyone:
+	Koniec przerwy 11:30
+	
+2026-03-19 10:41:50 From JSystems Szkolenia to Everyone:
+	Be concise! Provide short answers unless I ask for more details. I prefer step-by-step instructions that are straight to the point. Never repeat the same information.You may provide your opinions on topics but always make it clear that this is your opinion, not a fact. When you don't know, just say that you don't know.If you work in Git repo you should always commit changes after every step, before you go to the text task. Commit often to make it easier to revert changes if you make a mistake on any step.Before committing and ending the task you should always check if your changes work correctly.
+	
+2026-03-19 11:03:57 From Łukasz Szaniec to Everyone:
+	OpenAI Codex (v0.114.0)
+	
+2026-03-19 11:27:56 From JSystems Szkolenia to Everyone:
+	- On Frontend Run `npm run lint` and `npm run build` for UI changes. Then run `npm run test`.## Definition of Done- Apply these checks to small, granular changes so every step has a working state and a clear Git history that is easy to review or revert.- Before considering any part of a task done, verify that linting passes with no errors.- Before considering any part of a task done, verify that the changed scope builds and starts correctly for the part being worked on: backend, frontend, or both.- Before considering any part of a task done, verify that all relevant tests pass.- Before considering any part of a task done, verify that there are no errors, warnings, or similar issues in the affected scope.- Only after all of the checks above pass may the agent create a commit and treat that part of the task as completed.
+	
+2026-03-19 11:30:09 From JSystems Szkolenia to Everyone:
+	[AGENTS.md](AGENTS.md) Dodaj definition of Done, z instrukcją, że agent ma zawsze przed zakończeniem fragmentu zadania upewni się że:1. Linting przechodzi, nie ma żadnych błędów2. Aplikacja się buduje i uruchamia dany element nad którym pracuje agent (np. BE, lub FE, lub oba)3. Wszystkie testy przechodzą4. Nie ma żadnych błędów, ostrzeżeń, itp.5. Dopiero po spełnieniu tych kryteriów, agent może zrobić commit zmian i uznać część zadania za zakończonąPowinno być to robione na drobnych zmianach, granularnie abyśmy na każdym kroku mieli pewność że aplikacja działą oraz historię zmian w git commits, łatwą do śledzenia i cofnięcia zmian.
+	
+2026-03-19 11:30:18 From JSystems Szkolenia to Everyone:
+	Do Definition of Done dodaj zasadę pracy w TDD Test Driven Development, niezależnie czy agen pracuje na FE czy BE powinien zacząć zadanie dotyczące nowej funkcjonalności od dodania testów dla niej w oparciu o specyfikację, jeżli one jeszcze nie istnieją. Dopiero po dodaniu testów powinien przystąpić do implementacji funkcjonalności.
+	
+2026-03-19 11:32:34 From JSystems Szkolenia to Everyone:
+	## Definition of Done- Apply these checks to small, granular changes so every step has a working state and a clear Git history that is easy to review or revert.- For every new functionality, use TDD. On both frontend and backend, start from adding tests based on the specification if they do not already exist, and only then implement the functionality.- Before considering any part of a task done, verify that linting passes with no errors.- Before considering any part of a task done, verify that the changed scope builds and starts correctly for the part being worked on: backend, frontend, or both.- Before considering any part of a task done, verify that all relevant tests pass.- Before considering any part of a task done, verify that there are no errors, warnings, or similar issues in the affected scope.- Only after all of the checks above pass may the agent create a commit and treat that part of the task as completed.
+	
+2026-03-19 11:34:11 From JSystems Szkolenia to Everyone:
+	https://skills.sh/ NAjwiększa baza Skills - umiejętności dla Agentów
+	
+2026-03-19 11:39:41 From JSystems Szkolenia to Everyone:
+	Spring AI skill:https://spring.io/blog/2026/01/13/spring-ai-generic-agent-skills
+	
+2026-03-19 11:42:07 From JSystems Szkolenia to Everyone:
+	https://skills.sh/github/awesome-copilot/java-springboot
+	
+2026-03-19 11:58:40 From JSystems Szkolenia to Everyone:
+	Security dependencies z AI i tradycyjne algorytmy:https://snyk.io/
+	
+2026-03-19 12:01:38 From JSystems Szkolenia to Everyone:
+	npx skills add https://github.com/github/awesome-copilot --skill java-junit
+	
+2026-03-19 12:01:45 From JSystems Szkolenia to Everyone:
+	https://skills.sh/github/awesome-copilot/java-junit
+	
+2026-03-19 12:03:21 From JSystems Szkolenia to Everyone:
+	• Amp│    • Cline│    • Codex│    • Cursor│    • Gemini CLI│    • GitHub Copilot│    • Kimi Code CLI│    • OpenCode│    • Warp
+	
+2026-03-19 12:04:34 From JSystems Szkolenia to Everyone:
+	npx skills add https://github.com/github/awesome-copilot --skill java-junit
+	
+2026-03-19 12:08:30 From Wawrzyniec Suleja to JSystems Szkolenia (direct message):
+	397a05e6-f18c-4ed3-8e53-3c88a4bd53ce.png
+	
+2026-03-19 12:08:35 From JSystems Szkolenia to Everyone:
+	13:40 koniec przerwy
+	
+2026-03-19 12:11:28 From JSystems Szkolenia to Wawrzyniec Suleja (direct message):
+	{4DB64E16-1AF8-43B7-9F29-173E4FFF9974}.png
+	
+2026-03-19 12:11:55 From JSystems Szkolenia to Everyone:
+	{BDA77515-800A-4291-9D1D-4AE59F2332AD}.png
+	
+2026-03-19 12:12:39 From JSystems Szkolenia to Everyone:
+	Skills dla SQLhttps://skills.sh/?q=sql
+	
+2026-03-19 12:16:02 From JSystems Szkolenia to Everyone:
+	WIP branch gdzie są te skills i mój AGENTS.md - potem to dodam do głównego repo na master:https://github.com/EdukeyTeam/AI-Programming-Course-JSystem-03-2026/tree/wip-implement-copilotkit-langgraphjs
+	
+2026-03-19 12:18:04 From Wawrzyniec Suleja to Everyone:
+	Ja mam npx skills --version returns 1.4.5. Możecie sprawdzić jaką Wy macie?
+	
+2026-03-19 12:19:02 From JSystems Szkolenia to Everyone:
+	też 1.4.5To niestety inny problem :(
+	
+2026-03-19 13:22:48 From JSystems Szkolenia to Everyone:
+	Stwórz w naszym projekcie nowego subagenta Codex wyscpacjalizowanego w Java Developmentcie.Główne instrukcje będą znajdować się w skills projektu w folderze .agents np. SKILL.md SKILL.md więc nie musisz opisywać szczegółów które są tam zawarte. Podaj mu te skills do dyspozycji.Na początku zrób research czy Codex CLI potrafi już używać subagentów skonfigurowanych w folderze .agents (jest to nowy standard), czy nadal muszą być oni dodani do folderu .codex w naszym projekcie. Poszukaj w internecie w najnowszych źrółach z Marca 2026. Nie bierz pod uwagę starszych źródeł bo mogą być już nieaktualne.Przykłady dokumentacji:https://developers.openai.com/codex/subagentshttps://developers.openai.com/codex/config-referencePoszukaj również w innych źródłach.Na podstawie researchu podejmi decyzję i zaimplementuj to w odpowiednim folderze.DAj agentowi ogólne instrukcje dotyczące jego workflow i best practices dla Java Developmentu z Spring Boot, ale nie powielaj informacji z plików SKILLs.
+	
+2026-03-19 13:30:08 From Karol to Everyone:
+	https://eclipse-birt.github.io/birt-website/
+	
+2026-03-19 13:42:31 From JSystems Szkolenia to Everyone:
+	Skill Creator Stwórz dedkowany skill codex globalny dla obsługi narzędzia: https://eclipse-birt.github.io/birt-website/Ma on potrafić tworzyć raporty i design przez API opisane tutaj:https://eclipse-birt.github.io/birt-website/docs/integrating/deapihttps://eclipse-birt.github.io/birt-website/docs/integrating/reapiZrób reseaerch jak agent może używać tego API w sposób zautomatyzowany, co mu jest do tego potrzebne. Opisz wszystko tak aby po przeczytaniu SKILL.md agent miał wszystko co mu potrzebne do obsługi narzędzia Eclipse Birt.Skill zrób w języku angielskim.Jeżeli będą potrzebne jakieś automatyzacja czy skrypty możesz je również dodać aby agent miał deterministyczne metody i narzędzia do obsług Birt.
+	
+2026-03-19 13:45:45 From JSystems Szkolenia to Everyone:
+	Stwórz w naszym projekcie nowego subagenta Codex wyscpacjalizowanego w Java Developmentcie.Główne instrukcje będą znajdować się w skills projektu w folderze .agents np. [SKILL.md](.agents/skills/java-springboot/SKILL.md) [SKILL.md](.agents/skills/sql-optimization/SKILL.md) więc nie musisz opisywać szczegółów które są tam zawarte. Podaj mu te skills do dyspozycji.Na początku zrób research czy Codex CLI potrafi już używać subagentów skonfigurowanych w folderze .agents (jest to nowy standard), czy nadal muszą być oni dodani do folderu .codex w naszym projekcie. Poszukaj w internecie w najnowszych źrółach z Marca 2026. Nie bierz pod uwagę starszych źródeł bo mogą być już nieaktualne.Przykłady dokumentacji:https://developers.openai.com/codex/subagentshttps://developers.openai.com/codex/config-referencePoszukaj również w innych źródłach.Na podstawie researchu podejmi decyzję i zaimplementuj to w odpowiednim folderze.DAj agentowi ogólne instrukcje dotyczące jego workflow i best practices dla Java Developmentu z Spring Boot, ale nie powielaj informacji z plików SKILLs.
+	
+2026-03-19 13:48:10 From JSystems Szkolenia to Everyone:
+	$Find Skills Install 2-3 skills for FE development with Next.js, Vitest unit / integration Tests and Playwright E2E tests. Search for most popular and safe skills.
+	
+2026-03-19 13:49:00 From JSystems Szkolenia to Everyone:
+	find skills skill:https://skills.sh/vercel-labs/skills/find-skills
+	
+2026-03-19 13:51:18 From JSystems Szkolenia to Everyone:
+	Install all this skills for the project, not global
+	
+2026-03-19 14:03:55 From JSystems Szkolenia to Everyone:
+	Subagent-Driven Development Skill:https://skills.sh/obra/superpowers/subagent-driven-development
+	
+2026-03-19 14:05:43 From JSystems Szkolenia to Everyone:
+	Stwórz nowego agenta Frontend Developer, w podobny sposób jak Java Developera. Daj mu do dyspozycji te nowe Skills oraz ogólne instrukcje, ale nie powielając informacji z plików Skills
+	
+2026-03-19 14:08:25 From JSystems Szkolenia to Everyone:
+	Stwórz nowego agenta E2E QA Enginner, w podobny sposób jak pozostałych. Daj mu do dyspozycji te Playwright Skills oraz ogólne instrukcje, ale nie powielając informacji z plików Skills
+	
+2026-03-19 14:11:25 From JSystems Szkolenia to Everyone:
+	we have 2 skills for Playwright! Add for QA agent also this skill: [$playwright-interactive](C:\\Users\\labuser\\.codex\\skills\\playwright-interactive\\SKILL.md)
+	
+2026-03-19 14:14:42 From JSystems Szkolenia to Everyone:
+	https://github.com/EdukeyTeam/AI-Programming-Course-JSystem-03-2026/tree/wip-implement-copilotkit-langgraphjs Repo z Sub-Agents i Skills i AGENTS.md
+	
+2026-03-19 14:25:27 From JSystems Szkolenia to Everyone:
+	https://claude.com/download
+	
+2026-03-19 14:32:08 From JSystems Szkolenia to Everyone:
+	https://claude.ai/code
+	
+2026-03-19 14:36:00 From JSystems Szkolenia to Everyone:
+	Server MCP do dokumentacji: https://context7.com/
+	
+2026-03-19 14:41:21 From JSystems Szkolenia to Everyone:
+	Atlassian / Jira & Confluence MCP Server:https://community.atlassian.com/forums/Atlassian-Remote-MCP-Server/Using-the-Atlassian-Remote-MCP-Server-beta/ba-p/3005104
+	
+2026-03-19 14:43:04 From JSystems Szkolenia to Everyone:
+	https://community.atlassian.com/forums/Atlassian-Remote-MCP-Server/Using-the-Atlassian-Remote-MCP-Server-beta/ba-p/3005104/page/6
+	
+2026-03-19 14:43:44 From JSystems Szkolenia to Everyone:
+	Dokumentacja Atlasian MCP Server:https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
+	
+2026-03-19 14:52:18 From JSystems Szkolenia to Everyone:
+	Custom MCP Server:https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp
+	
