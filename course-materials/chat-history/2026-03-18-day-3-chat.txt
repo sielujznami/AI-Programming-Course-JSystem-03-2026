@@ -1,0 +1,185 @@
+2026-03-18 08:02:34 From JSystems Szkolenia to Everyone:
+	ls ~/Documents
+	
+2026-03-18 08:12:09 From JSystems Szkolenia to Everyone:
+	AIChat - AI do uzupełniania komend w terminaluhttps://github.com/sigoden/aichat potem:aichat -e <wasz prompt>np.aichat -e wygeneruj klucz ssh
+	
+2026-03-18 08:14:07 From JSystems Szkolenia to Everyone:
+	https://github.com/cargo-bins/cargo-binstall Do instalacji binary rust
+	
+2026-03-18 08:14:24 From JSystems Szkolenia to Everyone:
+	cargo binstall aichat
+	
+2026-03-18 08:17:07 From JSystems Szkolenia to Everyone:
+	Podpowiedzi historii komend:https://docs.atuin.sh/cli/guide/installation/ https://github.com/atuinsh/atuin
+	
+2026-03-18 08:20:28 From JSystems Szkolenia to Everyone:
+	https://www.warp.dev/ https://wezterm.org/config/lua/window-events/augment-command-palette.html
+	
+2026-03-18 08:21:38 From JSystems Szkolenia to Everyone:
+	WezTerm shft+ctrl+pmenu komend
+	
+2026-03-18 08:25:11 From JSystems Szkolenia to Everyone:
+	PR z code review od GitHub Copilothttps://github.com/LucasMatuszewski/AI-Programming-Course-JSystem-03-2026/pull/1
+	
+2026-03-18 08:45:11 From JSystems Szkolenia to Everyone:
+	Pomocnik generowania promptówhttps://www.promptcowboy.ai/
+	
+2026-03-18 08:47:22 From JSystems Szkolenia to Everyone:
+	Prompt do wygenerowania dokumentu PRD (wymagania projektu) - stworzony z pomocą PromptCowboy:https://github.com/EdukeyTeam/AI-Programming-Course-JSystem-03-2026/blob/master/prompts/day-2/PRD-generation-prompt-promtcowboy.md
+	
+2026-03-18 08:52:04 From JSystems Szkolenia to Everyone:
+	IMPORTANT: On first MVP phase we will not have human consultants, client will chat with AI agent from the beginning. We will also skip authentication and only use PESEL number or VAT ID to match data of the client in Data Base.
+	
+2026-03-18 08:59:22 From JSystems Szkolenia to Everyone:
+	You should save this PRD document in repository in /docs/PRD-product-requirements.md file
+	
+2026-03-18 09:05:10 From JSystems Szkolenia to Everyone:
+	Katalog użytkownika:C:\Users\labuser
+	.wezterm.lua
+	
+2026-03-18 09:06:31 From JSystems Szkolenia to Everyone:
+	Używanie shft+enter w WezTerm:-- shift+enterconfig.keys = {    {        key = "Enter",        mods = "SHIFT",        action = wezterm.action.SendString("\x0a"),    },}
+	
+2026-03-18 09:08:18 From JSystems Szkolenia to Everyone:
+	ctrl+J
+	
+2026-03-18 09:12:00 From JSystems Szkolenia to Everyone:
+	Theme do WezTerm:C:\Users\labuser\.config\wezterm
+	omarchy.lua
+	
+2026-03-18 09:18:45 From Wawrzyniec Suleja to JSystems Szkolenia (direct message):
+	Wychodzę na 3 minuty.
+	
+2026-03-18 09:20:39 From JSystems Szkolenia to Everyone:
+	Sekcje PRD:https://github.com/EdukeyTeam/AI-Programming-Course-JSystem-03-2026/blob/master/prompts/day-2/PRD-generation-prompt-promtcowboy.md#required-sections
+	
+2026-03-18 09:21:59 From JSystems Szkolenia to Everyone:
+	https://en.wikipedia.org/wiki/Product_requirements_document
+	
+2026-03-18 09:49:16 From JSystems Szkolenia to Everyone:
+	git config --global user.name "lucas" && git config --global user.email "lucas@example.com"
+	
+2026-03-18 09:51:17 From JSystems Szkolenia to Everyone:
+	https://github.com/settings/profile
+	
+2026-03-18 09:54:34 From JSystems Szkolenia to Everyone:
+	Instalacja i Seed bazy PostgreSQLhttps://github.com/LucasMatuszewski/AI-Programming-Course-JSystem-03-2026
+	
+2026-03-18 10:18:06 From JSystems Szkolenia to Everyone:
+	11:35 koniec przerwy
+	
+2026-03-18 10:25:17 From JSystems Szkolenia to Everyone:
+	Ollama Lokalna w Codex zamiast subskrypcji OpenAI:https://developers.openai.com/codex/config-advanced#custom-model-providers Pliki konfiguracyjne codex:C:\Users\labuser\.codex
+	
+2026-03-18 10:32:46 From JSystems Szkolenia to Everyone:
+	11:40 koniec przerwy
+	
+2026-03-18 10:49:00 From Karol to Everyone:
+	wymuś LF dla skryptów shellowych
+	
+2026-03-18 10:51:54 From JSystems Szkolenia to Everyone:
+	https://ollama.com/download/windows
+	
+2026-03-18 10:53:10 From JSystems Szkolenia to Everyone:
+	Ollama Lokalna w Codex zamiast subskrypcji OpenAI:https://developers.openai.com/codex/config-advanced#custom-model-providersPliki konfiguracyjne codex:C:\Users\labuser\.codexconfig.toml edytujemy
+	
+2026-03-18 10:54:27 From Wawrzyniec Suleja to JSystems Szkolenia (direct message):
+	To już się totalnie pogubiłem, co jest w głównym nurcie kursu, a co dla chętnych i nawet nie wiem, czy jestem na bieżąco. Nie chcę wstrzymywać, więc przełączam się w tryb nasłuchu. :)
+	
+2026-03-18 10:55:02 From JSystems Szkolenia to Everyone:
+	https://ollama.com/a-kore/Arctic-Text2SQL-R1-7B:latest SQL LLM
+	
+2026-03-18 10:56:59 From JSystems Szkolenia to Everyone:
+	Mój prompt i wynik do modelu Ollama do SQL:https://github.com/EdukeyTeam/AI-Programming-Course-JSystem-03-2026/blob/master/prompts/day-2/ollama-text2SQL-arctic-snowflake-tests.md
+	
+2026-03-18 10:59:34 From JSystems Szkolenia to Everyone:
+	Prompt - naprawa skryptu pod obraz Ubuntu o innej nazwie:Can you check the name of Ubuntu image on WSL we have here? CAn you make this script more universal to use any Ubuntu image available?
+	
+2026-03-18 11:09:33 From JSystems Szkolenia to Everyone:
+	Fixed script for PSQL:https://github.com/EdukeyTeam/AI-Programming-Course-JSystem-03-2026/tree/Postgressql-powershel-script-fixes
+	
+2026-03-18 11:18:11 From JSystems Szkolenia to Wawrzyniec Suleja (direct message):
+	https://github.com/langgraph4j/langgraph4j-copilotkit CopilotKit z LangGraph 4 Java
+	
+2026-03-18 11:20:24 From JSystems Szkolenia to Wawrzyniec Suleja (direct message):
+	Prostrze nie agentowe rozwiązania z LLM dla JAva z LAngChain:https://github.com/langchain4j/langchain4j
+	
+2026-03-18 11:29:02 From JSystems Szkolenia to Everyone:
+	https://github.com/langgraph4j/langgraph4j-copilotkitCopilotKit z LangGraph 4 JavaProstrze nie agentowe rozwiązania z LLM dla JAva z LAngChain:https://github.com/langchain4j/langchain4j
+	
+2026-03-18 11:30:35 From JSystems Szkolenia to Everyone:
+	git clone git@github.com:langgraph4j/langgraph4j-copilotkit.git
+	
+2026-03-18 11:45:04 From JSystems Szkolenia to Everyone:
+	/sandbox-add-read-dir C:\Users\labuser\Documents\langgraph4j-copilotkit
+	
+2026-03-18 11:54:21 From JSystems Szkolenia to Everyone:
+	Przeanalizuj projekt LangGraph4j implementujący CopilotKit i AG-UI protocol dla JAva który jest w tym repozytorium: C:\Users\labuser\Documents\langgraph4j-  copilotkit  czemu są dwa foldery, jeden z końcówką -impl a drugi -sdk? Chciałbym zaadoptować i przekopiować ten boilerplate do naszego repozytrorium. Zaplanuj jak mam  to zrobić, co skopiować, przeanalizuj dokładnie oba projekty i wytłumacz jak działa projekt z copilot kit i co powinno być skopiowane aby urchomić tę  aplikację u nas w repozytoriumNic nie zmieniaj, stwórz plan i wytłumacz mi tylko jak to działa i co mamy zrobić abym miał gotową instrukcję dla agenta  który to zaimplementuje.
+	
+2026-03-18 12:13:01 From JSystems Szkolenia to Everyone:
+	Czy masz tutaj dostęp w ramach Aplikacji Codex App Desktop do folderu C:\Users\labuser\Documents\langgraph4j-copilotkit - czy jest on dodany do twojego sandboxa jako dodatkowy folder? Spróbuj testowo odczytać plik README.md w tym repozytorium
+	
+2026-03-18 13:18:11 From JSystems Szkolenia to Everyone:
+	Przeanalizuj projekt LangGraph4j implementujący CopilotKit i AG-UI protocol dla JAva który jest w tym repozytorium: C:\Users\labuser\Documents\langgraph4j-  copilotkit  czemu są dwa foldery, jeden z końcówką -impl a drugi -sdk? Chciałbym zaadoptować i przekopiować ten boilerplate do naszego repozytrorium. Zaplanuj jak mam  to zrobić, co skopiować, przeanalizuj dokładnie oba projekty i wytłumacz jak działa projekt z copilot kit i co powinno być skopiowane aby urchomić tę  aplikację u nas w repozytorium. Nic nie zmieniaj, stwórz plan i wytłumacz mi tylko jak to działa i co mamy zrobić abym miał gotową instrukcję dla agenta  który to zaimplementuje.
+	
+2026-03-18 13:24:01 From JSystems Szkolenia to Everyone:
+	Endpoint OpenRouter: https://openrouter.ai/api/v1/chat/completions
+	
+2026-03-18 13:24:05 From JSystems Szkolenia to Everyone:
+	https://openrouter.ai/docs/quickstart
+	
+2026-03-18 13:24:53 From JSystems Szkolenia to Everyone:
+	OPENROUTER_API_KEY
+	
+2026-03-18 13:25:11 From JSystems Szkolenia to Everyone:
+	Możecie zapisać OPENROUTER_API_KEY="klucz" w pliku .env
+	
+2026-03-18 13:27:18 From JSystems Szkolenia to Everyone:
+	MiniMax M2.1Remove MiniMax M2.1Favicon for z-aiGLM 4.7Remove GLM 4.7Favicon for googleGemini 3 Flash PreviewRemove Gemini 3 Flash PreviewFavicon for nvidiaNemotron 3 Nano 30B A3B (free)Remove Nemotron 3 Nano 30B A3B (free)Favicon for deepseekDeepSeek V3.2Remove DeepSeek V3.2Favicon for z-aiGLM 4.7 FlashRemove GLM 4.7 FlashFavicon for mistralaiMinistral 3 14B 2512Remove Ministral 3 14B 2512Favicon for x-aiGrok 4.1 FastRemove Grok 4.1 FastFavicon for openaiGPT-5.1-Codex-MiniRemove GPT-5.1-Codex-MiniFavicon for moonshotaiKimi K2 ThinkingRemove Kimi K2 ThinkingFavicon for anthropicClaude Haiku 4.5Remove Claude Haiku 4.5Favicon for qwenQwen3 VL 235B A22B ThinkingRemove Qwen3 VL 235B A22B ThinkingFavicon for qwenQwen3 VL 235B A22B InstructRemove Qwen3 VL 235B A22B InstructFavicon for qwenQwen3 Coder PlusRemove Qwen3 Coder PlusFavicon for qwenQwen3 Coder FlashRemove Qwen3 Coder FlashFavicon for moonshotaiKimi K2 0905Remove Kimi K2 0905Favicon for x-aiGrok Code Fast 1Remove Grok Code Fast 1Favicon for mistralaiMistral Medium 3.1Remove Mistral Medium 3.1Favicon for openaiGPT-5 NanoRemove GPT-5 NanoFavicon for openaigpt-oss-120bRemove gpt-oss-120bFavicon for openaigpt-oss-20bRemove gpt-oss-20bFavicon for mistralaiCodestral 2508Remove Codestral 2508Favicon for z-aiGLM 5Remove GLM 5Favicon for minimaxMiniMax M2.5Remove MiniMax M2.5Favicon for googleGemini 3.1 Flash Lite Preview
+	
+2026-03-18 13:29:11 From JSystems Szkolenia to Everyone:
+	Do użycia w zmiennej jako nazwa modelu w waszej aplikacji:minimax/minimax-m2.1deepseek/deepseek-v3.2
+	
+2026-03-18 13:37:06 From Wawrzyniec Suleja to JSystems Szkolenia (direct message):
+	Chciałem tylko zaznaczyć, że trochę niesprawiedliwie odebrałem uwagę, że wstrzymuję zajęcia. Dopytywałem, żeby nadążyć za materiałem, a nie blokować szkolenie - zwłaszcza że w podobnych sytuacjach innym uczestnikom była udzielana pomoc. Piszę to spokojnie, żeby nie było nieporozumienia.
+	
+2026-03-18 13:56:39 From JSystems Szkolenia to Everyone:
+	Przeanalizuj docs\loan-decision-copilot-prd.md oraz na bazie dotychczasowej Twojej analizy projektu i LAngraph4j-copilotkit przygotuj szczegłówy plan i  dokument ADR (Architecture Decision Record) zawierający opis implementacji technologicznej PRD w naszym repozytorium w oparciu o:  https://github.com/langgraph4j/langgraph4j-copilotkit  https://docs.copilotkit.ai/  https://docs.ag-ui.com/introduction (zaimplementowany już w copilotKit i Langraph4j-copilotkit)  https://github.com/langgraph4j/langgraph4j (implemented inside langraph4j-copilot)Zaprojektuj architekturę prostej bazy danych na potrzeby PoC w uproszczony sposób, bez autentyfikacji, tak aby przetestować na PoC czy aplikacja działa w  minimalnej wersji szybkiej do zaimplementowania. Więc zaproponuj struktury danych pasujące do opisów z PRD. Przygotuj również plan stworznia pliku seed  bazy danych do testów.  MAke a plan and architecture decisions how to implement our application to meet requirements of PRD document.
+	
+2026-03-18 13:56:44 From JSystems Szkolenia to Everyone:
+	Format obowiązkowy:  - Kontekst  - Decyzja  - Konsekwencje  - Ryzyka  - Trigger rewizji decyzji  Przygotuj 4 diagramy Mermaid dla projektu "Loan Decision Copilot":  1) user flow,  2) high-level architecture,  3) decision flow,  4) uproszczony data model overview with basic data in each table.  Diagramy mają być:  - czytelne,  - małe,  - gotowe do wklejenia do Markdown,  - bez przesadnej szczegółowości.  Opisz również sposoby walidacji poprawności wykonania aplikacji, aby agent implementujący to rozwiązanie wiedział jak może sprawdzić w kodzie czy aplikacja  działa i spełnia kryteria PRD oraz ADR. Zapropnuj pomysły na testy jednostkowe, integracyjne oraz E2E w Playwright oraz JUnit5 oraz Vitest lub Jest.  Dobierz najlepiej pasujące rozwiązania do aplikacji i template kodu z langgraph4j-copilotkit template.  W tej chwili aplikacje jeszcze nie zawiera kodu z langgraph4j-copilotkit natomiast na etapie implementacji agent będzie już miał cały kod przekopiowany.
+	
+2026-03-18 13:58:34 From JSystems Szkolenia to Everyone:
+	Zadaj mi teraz minimum 5 pytań aby mieć pewność że wiesz wszystko co potrzebne do wykonania zadania. Przeanalizuj czego jeszcze Ci brakuje.
+	
+2026-03-18 14:12:04 From Łukasz Szaniec to Everyone:
+	ja dzisiaj około 15:40-45 będę kończył
+	
+2026-03-18 14:14:10 From Michal to Everyone:
+	Error has been observed at the following site(s):
+	    *__checkpoint ⇢ 401 UNAUTHORIZED from POST https://openrouter.ai/api/v1/chat/completions [DefaultWebClient]
+	
+2026-03-18 14:14:25 From Michal to Everyone:
+	Error has been observed at the following site(s):
+	    *__checkpoint ⇢ 404 NOT_FOUND from POST https://openrouter.ai/api/v1/chat/completions [DefaultWebClient]
+	Original Stack Trace:
+	
+2026-03-18 14:22:05 From JSystems Szkolenia to Everyone:
+	Ad.1 Użyj PostrgreSQL i obecnego compose.yaml oraz skryptu do stawiania i seed bazy. Plan powinien zawierać również dodanie docelowej strukty w pliku seed bazy aby automatycznie została ona dostosowana do projektu razem z przykładowymi danymi klientów.Ad.2. Tak, użyj folderu /frontend na wzór copilot-app z Next.jsAd.3. tzrób w oparciu o LLM i LangGraph4j, wytłumacz w dokumencie jak skonfigurować endpoint, api key oraz nazwę modelu, abyśmy potem mieli to w README.mdAd.4. Zaproponuj przykładowe reguły deterministyczne + ocena LLM jako dodatkowy element składowy. To ma być demo, nie musi być produkcyjne.Ad. 5. użyj PESEL lub VAT ID jako identyfikator użytkownika z danych z formularza i po nim rób zapytania do bazy. Nie mamy teraz pełnej autentyfikacji.Ad.6. Trial nie, ale zrób prosty komponent CopiliotKit z wynikiem graficznym scoringu + opisy tekstowe + możliwość dalszej rozmowy w czacieAd.7 Uproszczony na demo PoC, np. 10-15 klientów i 5 głównych case’ów
+	
+2026-03-18 14:22:08 From JSystems Szkolenia to Everyone:
+	Ad. 8. Upraszczaj na demoAd. 9. Pesel lub VAT IDAd. 10. PolskiPrzygotuj dokument w postaci Markdown w folderze /docs
+	
+2026-03-18 14:41:02 From JSystems Szkolenia to Everyone:
+	Playwright Interactive Przytuj dokłady opis design system oraz design tokens Banku NBP Narodowy Bank Polski.Odwiedź stronę: https://nbp.pl/Zrób screenshots oraz przeanalizuj DOM i klasy css aby zapisać wszystkie szczegóły potrzebne do stworznia Design System, który pozwoli nam na stworzenie aplikacji Chat AI zgodnej z wyglądem strony Banku NBP.Pobierz również logo i zapisz w assets projektu oraz opisz w dokumencie gdzie ono się znajduje.Zapisz wszystkie niezbędne elementy do odtworznia stylistyki i design system NBP w nowej aplikacji aby agent AI miał wszystkie informacje mu potrzebne, np. kolory, czcionki, cienie, pogrubienia, animacje, itd.Przygotuj dokument z design system w folderze /docs
+	
+2026-03-18 14:51:15 From JSystems Szkolenia to Everyone:
+	Testy E2E z Playwright od Microsoft:https://playwright.dev/ https://github.com/microsoft/playwright 
+	
+2026-03-18 14:56:49 From Łukasz Szaniec to Everyone:
+	cześć, ja już na dzisiaj kończę, do zobaczenia jutro
+	
+2026-03-18 14:57:50 From JSystems Szkolenia to Everyone:
+	Przygotuj dokument z design system w folderze /docs
+	

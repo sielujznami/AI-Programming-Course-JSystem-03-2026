@@ -1,0 +1,214 @@
+2026-03-16 08:07:07 From JSystems Szkolenia to Everyone:
+	Dzień 1 – agenda:09:00 Zoom start + zasady pracy09:20 Remote hosts – logowanie, co mamy zainstalowane09:45 Runda zapoznawcza10:05 Quiz kalibracyjny (anonimowy)10:25 Moduł 1.1 – The New Frontier (AI revolution, mity, dane, case studies)11:10 ☕ PRZERWA11:25 Moduł 1.2 – Modele, Prompty, Vibe Coding vs Vibe Engineering, Context Engineering12:15 Moduł 1.3 – Mission Briefing + setup środowiska (część 1)13:00 🍽️ PRZERWA (30 min)13:30 Moduł 1.3 – Instalacja, autoryzacja, pierwsze komendy (część 2)14:30 ☕ OPCJONALNA PRZERWA14:40 Moduł 1.4 – AI Research + wymagania projektu15:30 WezTerm – dlaczego warto (mini-moduł)15:45 Podsumowanie dnia16:00 Konie
+	
+2026-03-16 08:07:54 From JSystems Szkolenia to Everyone:
+	Dzień 1 – agenda:09:00 Zoom start + zasady pracy09:20 Remote hosts – logowanie, co mamy zainstalowane09:45 Runda zapoznawcza10:05 Quiz kalibracyjny (anonimowy)10:25 Moduł 1.1 – The New Frontier (AI revolution, mity, dane, case studies)11:10 ☕ PRZERWA11:25 Moduł 1.2 – Modele, Prompty, Vibe Coding vs Vibe Engineering, Context Engineering12:15 Moduł 1.3 – Mission Briefing + setup środowiska (część 1)13:00 🍽️ PRZERWA (30 min)13:30 Moduł 1.3 – Instalacja, autoryzacja, pierwsze komendy (część 2)14:30 ☕ OPCJONALNA PRZERWA14:40 Moduł 1.4 – AI Research + wymagania projektu15:30 WezTerm – dlaczego warto (mini-moduł)15:45 Podsumowanie dnia16:00 Koniec
+	
+2026-03-16 08:25:17 From JSystems Szkolenia to Everyone:
+	Zasady pracy:👍 = jasne / działa / jestem z wami❓ = pytanie (wrzuć na chat lub powiedz głosem)🐛 = coś nie działa, zablokowany/aAI = draft + weryfikacja, nie wyroczniaPytania od razu, nie czekamy.
+	
+2026-03-16 08:26:11 From JSystems Szkolenia to Everyone:
+	Hosty zdalne
+	Dostepy-RDP-AI-dla-programistow-2026-03-16.pdf
+	
+2026-03-16 08:29:20 From JSystems Szkolenia to Everyone:
+	Dostepy-RDP-AI-dla-programistow-2026-03-16.pdf
+	
+2026-03-16 08:40:14 From JSystems Szkolenia to Everyone:
+	http://auth.openai.com/codex/device
+	
+2026-03-16 08:43:47 From Michal to Everyone:
+	Jeszcze prośba o pokazanie gdzie włączyć opcję: Włącz autoryzację kodu urządzenia dla Codex w ustawieniach zabezpieczeń ChatGPT, następnie ponownie uruchom polecenie „codex login --device-auth”.
+	
+2026-03-16 08:44:06 From Karol to Everyone:
+	ja tez mam taki komunikat
+	
+2026-03-16 08:48:44 From JSystems Szkolenia to Everyone:
+	https://auth.openai.com/codex/device
+	
+2026-03-16 09:28:03 From JSystems Szkolenia to Everyone:
+	Runda intro (2-3 min/os):1) Rola + stack2) Jak dziś używasz AI (narzędzia, kontekst)3) Największa frustracja z AI4) Co chcesz wynieść z tego tygodnia
+	
+2026-03-16 09:41:55 From JSystems Szkolenia to Everyone:
+	OLLAMA do programowania:https://ollama.com/library/glm-5
+	
+2026-03-16 09:49:35 From JSystems Szkolenia to Everyone:
+	https://ollama.com/library/qwen3.5
+	
+2026-03-16 09:51:24 From JSystems Szkolenia to Everyone:
+	https://ollama.com/library/nemotron-3-super
+	
+2026-03-16 09:53:20 From JSystems Szkolenia to Everyone:
+	Małe modele specjalistyczne:https://ollama.com/library/lfm2.5-thinking
+	
+2026-03-16 09:53:58 From JSystems Szkolenia to Everyone:
+	https://ollama.com/download/windows
+	
+2026-03-16 10:04:01 From JSystems Szkolenia to Everyone:
+	koniec przerwy 11:15 :)
+	
+2026-03-16 10:33:42 From JSystems Szkolenia to Everyone:
+	Ollama:https://ollama.com/download/windows
+	
+2026-03-16 10:38:27 From JSystems Szkolenia to Everyone:
+	ollama --version
+	
+2026-03-16 10:40:54 From JSystems Szkolenia to Everyone:
+	ollama run lfm2.5-thinking --verboseStatystyki tokenów - prędkośćgenerowania
+	
+2026-03-16 10:42:17 From JSystems Szkolenia to Everyone:
+	provide list of this numbers in ascending order as Json object following same structure: `{ "numbers": [43, 12, 04, 223, 12, 443, 0, -232] }` - do not respond anything more, only this json object. Do not explain your reasoning.
+	
+2026-03-16 10:51:52 From JSystems Szkolenia to Everyone:
+	Ollama domyślny adres URL:http://localhost:11434
+	
+2026-03-16 10:53:31 From JSystems Szkolenia to Everyone:
+	IntelliJ Settings > Tools > AI Assistant > Providers & API keys:Ollama:http://localhost:11434
+	
+2026-03-16 10:59:25 From JSystems Szkolenia to Everyone:
+	Ollama - modele w chmurze - bezpłatne:https://ollama.com/search?c=cloud
+	
+2026-03-16 11:00:31 From JSystems Szkolenia to Everyone:
+	Najlepsze modele Ollama do programowania - chmurowe:https://ollama.com/library/glm-5 https://ollama.com/library/minimax-m2.5
+	
+2026-03-16 11:11:01 From JSystems Szkolenia to Everyone:
+	provide list of this numbers in ascending order as Json object following same structure: { "numbers": [43, 12, 04, 223, 12, 443, 0, -232] } - do not respond anything more, only this json object. Do not explain your reasoning.
+	
+2026-03-16 11:17:30 From JSystems Szkolenia to Everyone:
+	Też w miarę dobre:https://ollama.com/library/kimi-k2.5 Fancuski Agent od Mistral:https://github.com/mistralai/mistral-vibe
+	
+2026-03-16 11:18:23 From JSystems Szkolenia to Everyone:
+	Mistral na Ollama:https://ollama.com/search?q=mistral
+	
+2026-03-16 11:20:20 From JSystems Szkolenia to Everyone:
+	Ollama Polski model Bielik:https://ollama.com/search?q=bielik
+	
+2026-03-16 11:24:24 From JSystems Szkolenia to Everyone:
+	Codex jak dodać modele customowe / lokalne / Ollama / Mistral / itp.https://developers.openai.com/codex/config-advanced/#custom-model-providers
+	
+2026-03-16 11:26:06 From JSystems Szkolenia to Everyone:
+	BTOP - system / process monitor:Linux:https://github.com/aristocratos/btop Windows:https://github.com/aristocratos/btop4win
+	
+2026-03-16 11:26:37 From JSystems Szkolenia to Everyone:
+	https://github.com/aristocratos/btop4win?tab=readme-ov-file#installation
+	
+2026-03-16 11:27:57 From JSystems Szkolenia to Everyone:
+	Runda intro (2-3 min/os):1) Rola + stack2) Jak dziś używasz AI (narzędzia, kontekst)3) Największa frustracja z AI4) Co chcesz wynieść z tego tygodnia
+	
+2026-03-16 11:40:42 From JSystems Szkolenia to Everyone:
+	https://www.perplexity.ai/ Wyszukiwarka AI
+	
+2026-03-16 11:47:21 From JSystems Szkolenia to Everyone:
+	IBM Cobol vs Anthropic:https://www.tomshardware.com/tech-industry/big-tech/ibm-stock-takes-a-13-percent-whiplash-after-anthropic-announces-an-ai-tool-for-writing-cobol-code-stock-has-worst-day-since-2000-and-is-down-25-percent-mom-and-counting
+	
+2026-03-16 11:56:34 From Karol to Everyone:
+	toad
+	
+2026-03-16 11:56:41 From Marcin Michałowski to Everyone:
+	Pl/Sql Developer
+	
+2026-03-16 11:59:28 From Michal to Everyone:
+	Data Grip
+	
+2026-03-16 11:59:33 From Marcin Michałowski to Everyone:
+	https://www.oracle.com/database/sqldeveloper/
+	
+2026-03-16 12:05:49 From JSystems Szkolenia to Everyone:
+	13:35 koniec przerwy
+	
+2026-03-16 12:13:47 From JSystems Szkolenia to Everyone:
+	@Michal - odnośnie Smart Home / IoT o które pytałeś - ten mały model LFM do takich zastosować spokojnie wystarczy, np. sterowanie urządzeniami, serwami, silnikaami, światłami, a może on działać nawet na Raspberry Pi czy Radxa Zero:https://ollama.com/library/lfm2.5-thinking Radxa: https://radxa.com/products/zeros/zero/ A tutaj coś większego w niezłej cenie z NPU 6TOPs (rdzeń pod modele AI) i do 32GB RAM ;)https://radxa.com/products/rock5/5bp/
+	
+2026-03-16 12:44:15 From JSystems Szkolenia to Everyone:
+	https://steipete.me/posts/2025/shipping-at-inference-speedArtykuł dla chętnych
+	
+2026-03-16 12:44:20 From JSystems Szkolenia to Everyone:
+	https://steipete.me/posts/2025/shipping-at-inference-speed
+	
+2026-03-16 12:47:22 From JSystems Szkolenia to Everyone:
+	@Michal - odnośnie Smart Home / IoT o które pytałeś - ten mały model LFM do takich zastosować spokojnie wystarczy, np. sterowanie urządzeniami, serwami, silnikaami, światłami, a może on działać nawet na Raspberry Pi czy Radxa Zero:https://ollama.com/library/lfm2.5-thinkingRadxa: https://radxa.com/products/zeros/zero/A tutaj coś większego w niezłej cenie z NPU 6TOPs (rdzeń pod modele AI) i do 32GB RAM ;)https://radxa.com/products/rock5/5bp/
+	
+2026-03-16 12:54:07 From JSystems Szkolenia to Everyone:
+	Modele do analizy obrazu:https://ollama.com/library/deepseek-ocr https://ollama.com/library/gemma3 https://ollama.com/library/glm-ocr
+	
+2026-03-16 12:59:47 From JSystems Szkolenia to Everyone:
+	Tokeny w różnyc modelach:https://tiktokenizer.vercel.app/
+	
+2026-03-16 13:06:31 From JSystems Szkolenia to Everyone:
+	Czy polski działa w promptach?TAK. Polski jest w TOP 5 języków w benchmarkach LLM.Źródło: https://cryps.pl/sztuczna-inteligencja-mowi-po-polsku-nasz-jezyk-zdeklasowal-angielski-w-najnowszym-rankingu/Praktycznie: możecie promptować po polsku.Ale Badanie jest już stare, na dawnych modelach oraz dotyczyło tylko wyszukiwania igły w stogu siana, czyli informacji w dużym kontekście.Promptowanie po angielsku nadal jest wydajne i zajmuje mniej kontekstu (polskie słowa to więcej tokenów).
+	
+2026-03-16 13:13:45 From JSystems Szkolenia to Everyone:
+	https://artificialanalysis.ai/evaluations/omniscience Skłonnośćdo halucynacji modeli
+	
+2026-03-16 13:35:55 From JSystems Szkolenia to Everyone:
+	https://www.goodreads.com/book/show/228646231-if-anyone-builds-it-everyone-dies
+	
+2026-03-16 13:45:31 From Wawrzyniec Suleja to JSystems Szkolenia (direct message):
+	Przepraszam, ale dzisiaj muszę się odmeldować.
+	
+2026-03-16 13:55:16 From JSystems Szkolenia to Everyone:
+	Case study: Peter Steinberger + OpenClaw- 1000-1500 commitów dziennie z Codex agents- 50 równoległych agentów Codex do triażu PR- 220K gwiazdek na GitHubie w kilka tygodni- Dołączył do OpenAI w lutym 2026Artykuł: https://steipete.me/posts/2025/shipping-at-inference-speedProfil na GitHub z wykresem commitów: https://github.com/steipete
+	
+2026-03-16 14:02:33 From JSystems Szkolenia to Everyone:
+	https://github.com/openclaw/openclaw https://openclaw.ai/ Agent niezależny
+	
+2026-03-16 14:09:44 From JSystems Szkolenia to Everyone:
+	Microsoft: rewrite C/C++ → Rust z pomocą AI"1 inżynier, 1 miesiąc, 1 milion linii kodu"Cel: eliminacja C/C++ z Microsoft do 2030https://www.linkedin.com/posts/galenh_principal-software-engineer-coreai-microsoft-activity-7407863239289729024-WTzf
+	
+2026-03-16 14:17:18 From JSystems Szkolenia to Everyone:
+	Poziomy AI-Assisted Programming:0 – Manual (piszesz wszystko ręcznie)1 – Autocomplete (Copilot tab)2 – Chat (pytasz, kopiujesz)3 – Agent (edytuje pliki, używa narzędzi, AGENTS.md)4 – Multi-Agent (flota agentów, async, CI/CD)5 – Dark Factory (w pełni autonomiczne; ludzie zarządzają specami, nie kodem)Gdzie jesteś teraz? Gdzie chcesz być po tym kursie?
+	
+2026-03-16 14:17:39 From JSystems Szkolenia to Everyone:
+	3 nowe role IT w erze AI:1. Orchestrator – zarządza agentami, pisze AGENTS.md, PRD, zasady.   "Nowy tech lead"2. System/Infra Builder – buduje scaffolding: CI/CD, MCP servers,   sandboxes, observability, kontrola kosztów.3. Domain Expert as Programmer – prawnik, analityk, lekarz który   opisuje co chce w języku naturalnym i dostaje działający software.   Nie wie że stał się programistą.
+	
+2026-03-16 14:22:33 From JSystems Szkolenia to Everyone:
+	'Vibe Coding'
+	
+2026-03-16 14:23:10 From JSystems Szkolenia to Everyone:
+	https://x.com/karpathy/status/1886192184808149383
+	
+2026-03-16 14:25:26 From Michal to Everyone:
+	vibe coding.jpg
+	
+2026-03-16 14:28:21 From JSystems Szkolenia to Everyone:
+	https://chat.z.ai/
+	
+2026-03-16 14:28:42 From JSystems Szkolenia to Everyone:
+	build a html website for Steves PC Repair, High-contrast dark mode + bold condensed headings + animated ticker + chunky category chips + magnetic CTA.You must include the disclaimer that steve will not work on macs, he hates them, and their users, and include an origin story as to why
+	
+2026-03-16 14:33:30 From JSystems Szkolenia to Everyone:
+	https://chat.z.ai/space/x12ng1uwx401-art
+	
+2026-03-16 14:33:44 From JSystems Szkolenia to Everyone:
+	https://chat.z.ai/space/k130qh1g7ts0-art
+	
+2026-03-16 14:34:38 From JSystems Szkolenia to Everyone:
+	https://chat.z.ai/space/h1a0che8zcr1-art
+	
+2026-03-16 14:38:00 From JSystems Szkolenia to Wawrzyniec Suleja (direct message):
+	ok, dziękuję za dzisiaj :)
+	
+2026-03-16 14:39:36 From JSystems Szkolenia to Everyone:
+	https://arena.ai/ Leaderboard / ranking modeli AI:https://arena.ai/leaderboard
+	
+2026-03-16 14:46:02 From JSystems Szkolenia to Everyone:
+	Search on X.com threads and posts with opinions and issues people have with GLM-5 model
+	
+2026-03-16 14:50:05 From JSystems Szkolenia to Everyone:
+	build a html website for Steves PC Repair, High-contrast dark mode + bold condensed headings + animated ticker + chunky category chips + magnetic CTA.You must include the disclaimer that steve will not work on macs, he hates them, and their users, and include an origin story as to why
+	
+2026-03-16 14:50:09 From JSystems Szkolenia to Everyone:
+	https://arena.ai/code
+	
+2026-03-16 14:52:13 From Michal to Everyone:
+	https://chat.z.ai/s/5c28bf31-e19a-4e89-ad11-0af2d7c57184
+	
+2026-03-16 14:58:09 From JSystems Szkolenia to Everyone:
+	https://arena.ai/code/side-by-side
+	
+2026-03-16 15:04:07 From JSystems Szkolenia to Everyone:
+	ollama run minimax-m2.5:cloud
+	
+2026-03-16 15:04:26 From JSystems Szkolenia to Everyone:
+	ollama run glm-5:cloud
+	

@@ -1,0 +1,239 @@
+2026-03-17 08:05:24 From JSystems Szkolenia to Everyone:
+	Dzień 2 – agenda:09:00 Reset po dniu 1 + nowy cel dnia09:15 Krótkie intro: Codex CLI / Desktop App / Claude Code – jak dziś pracujemy09:35 Sandbox i bezpieczny start z agentami10:00 Ćwiczenie 1 – PostgreSQL w Dockerze z pomocą agenta11:00 ☕ PRZERWA11:15 Wspólna decyzja: app idea i scope MVP11:40 Ćwiczenie 2 – model danych, tabele, joiny i scoring12:30 AI Research + PRD pod nasze MVP13:00 🍽️ PRZERWA (30 min)13:30 ADR + architektura + diagramy Mermaid14:15 Repo workflow: upstream / fork / clone / template reuse14:40 Skill demo (opcjonalnie): Playwright Interactive + design tokens15:00 AGENTS.md / custom agents / MCP – intro i most do dnia 315:30 Podsumowanie dnia + gotowy handoff do implementacji16:00 Koniec
+	
+2026-03-17 08:12:07 From JSystems Szkolenia to Everyone:
+	Cel dnia 2:1) uruchomić PostgreSQL lokalnie,2) zdecydować wspólny kierunek aplikacji,3) zaprojektować dane, przepływ i architekturę,4) przygotować PRD + ADR + prompty,5) wejść w dzień 3 z gotowym planem do implementacji.
+	
+2026-03-17 08:27:45 From JSystems Szkolenia to Everyone:
+	AG-UI Proptocol:https://docs.ag-ui.com/introduction https://github.com/ag-ui-protocol/ag-ui
+	
+2026-03-17 08:29:41 From JSystems Szkolenia to Everyone:
+	CopilotKit - Framework UI do kontroli UI przez agentów:https://www.copilotkit.ai/ag-ui
+	
+2026-03-17 08:32:31 From JSystems Szkolenia to Everyone:
+	Spring AI:https://spring.io/projects/spring-ai
+	
+2026-03-17 08:39:10 From JSystems Szkolenia to Everyone:
+	Kontrakt na dziś:- krócej tłumaczę,- częściej oddaję Wam stery,- robimy małe kroki,- kończymy dzień konkretnymi artefaktami.
+	
+2026-03-17 08:59:58 From JSystems Szkolenia to Everyone:
+	Modele LLM dla SQL i Baz Danych:Snowflake:https://www.snowflake.com/en/engineering-blog/real-time-text-to-sql-snowflake-intelligence/ https://www.snowflake.com/en/engineering-blog/arctic-text2sql-r1-sql-generation-benchmark/ https://www.snowflake.com/en/product/features/arctic/ Ollama model SQL 7B parametrów:https://ollama.com/a-kore/Arctic-Text2SQL-R1-7B:latest
+	
+2026-03-17 09:00:22 From JSystems Szkolenia to Everyone:
+	Modele AI od Snowflake do SQL i Baz DAnych / Data Science / BI:https://huggingface.co/Snowflake/models
+	
+2026-03-17 09:00:43 From JSystems Szkolenia to Everyone:
+	Databricks model LLM:https://ollama.com/library/dbrx https://www.databricks.com/
+	
+2026-03-17 09:36:44 From JSystems Szkolenia to Everyone:
+	https://github.com/openai/skills/tree/main/skills/.curated
+	
+2026-03-17 09:36:46 From JSystems Szkolenia to Everyone:
+	Skills
+	
+2026-03-17 09:37:30 From JSystems Szkolenia to Everyone:
+	https://skills.sh/  baza umiejętności dla agentów
+	
+2026-03-17 09:39:14 From JSystems Szkolenia to Everyone:
+	https://skills.sh/github/awesome-copilot/postgresql-code-review
+	
+2026-03-17 10:01:17 From JSystems Szkolenia to Everyone:
+	Jakie masz informacje o sytemie operacyjnym i aplikacji w której się znajdujesz? Co możesz zrobić w ramach tego środowiska, jakie masz narzędzia i skills? JAkim modelem jesteś? Kto Cię stworzył? Jaką masz datę knowledge cutoff?
+	
+2026-03-17 10:18:37 From Łukasz Szaniec to Everyone:
+	po restarcie cli wypisuje już wszystkie 4 skile
+	
+2026-03-17 10:27:51 From JSystems Szkolenia to Everyone:
+	Koniec przerwy 11:45
+	
+2026-03-17 10:50:25 From JSystems Szkolenia to Everyone:
+	C:\Users\labuser\.codexUstawienia Codex
+	
+2026-03-17 11:10:39 From JSystems Szkolenia to Everyone:
+	get detailed information about this operating system and resources, CPU, GPU, RAM, Disk, free/used, etc.
+	
+2026-03-17 11:14:44 From JSystems Szkolenia to Everyone:
+	C:\Users\labuser\.codex\config.toml
+	
+2026-03-17 11:14:49 From JSystems Szkolenia to Everyone:
+	[windows]sandbox = "elevated"
+	
+2026-03-17 11:20:27 From JSystems Szkolenia to Everyone:
+	model = "gpt-5.4"model_reasoning_effort = "medium"sandbox_mode = "workspace-write"personality = "pragmatic"[windows]sandbox = "elevated"[projects.'C:\Users\labuser']trust_level = "trusted"[sandbox_workspace_write]network_access = true[notice.model_migrations]"gpt-5.1-codex-mini" = "gpt-5.4"[tui]status_line = ["model-with-reasoning", "context-remaining", "current-dir", "git-branch", "five-hour-limit", "weekly-limit"]
+	
+2026-03-17 11:33:34 From JSystems Szkolenia to Everyone:
+	Observability dla LLM, evals, testy iprompty itd.https://langfuse.com/
+	
+2026-03-17 11:41:27 From JSystems Szkolenia to Everyone:
+	Ćwiczenie 1 – cel:Uruchomić lokalny PostgreSQL w Dockerze tak, aby:- działał na znanym porcie,- miał utworzoną bazę dla naszej aplikacji,- dało się połączyć klientem SQL,- dało się utworzyć pierwsze tabele,
+	
+2026-03-17 11:43:45 From JSystems Szkolenia to Everyone:
+	Acceptance criteria:1) Kontener PostgreSQL działa2) Znamy host, port, user, password, db name3) Potrafimy połączyć się do bazy4) Potrafimy wykonać proste CREATE TABLE i SELECT5) Mamy zapisane komendy lub docker-compose / compose.yaml do ponownego uruchomienia
+	
+2026-03-17 11:46:53 From JSystems Szkolenia to Everyone:
+	https://github.com/LucasMatuszewski/AI-Programming-Course-JSystem-03-2026
+	
+2026-03-17 11:58:19 From JSystems Szkolenia to Everyone:
+	WezTerm config file
+	.wezterm.lua
+	
+2026-03-17 12:03:08 From JSystems Szkolenia to Everyone:
+	Theme umieść w folderze:C:\Users\USER\.config\weztermNp.C:\Users\lucas\.config\wezterm
+	omarchy.lua
+	
+2026-03-17 12:04:28 From JSystems Szkolenia to Everyone:
+	https://wezterm.org/install/windows.html
+	
+2026-03-17 12:07:45 From JSystems Szkolenia to Everyone:
+	Fonts:https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip Symbols:https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/NerdFontsSymbolsOnly.zip
+	
+2026-03-17 12:08:11 From JSystems Szkolenia to Everyone:
+	Emojihttps://fonts.google.com/noto/specimen/Noto+Color+Emoji
+	
+2026-03-17 12:09:31 From JSystems Szkolenia to Everyone:
+	-- shift+enterconfig.keys = {  {    key = "Enter",    mods = "SHIFT",    action = wezterm.action.SendString("\x0a"),  },}
+	
+2026-03-17 12:28:13 From Wawrzyniec Suleja to JSystems Szkolenia (direct message):
+	Ja niestety zostałem odciągnięty przez pracę na ostatnie 20 minut. Uzupełnię środowisko od kolegów dzisiaj popołudniu.
+	
+2026-03-17 12:33:01 From JSystems Szkolenia to Everyone:
+	https://github.com/settings/keys
+	
+2026-03-17 12:35:13 From Michal to Everyone:
+	ssh-keygen -o -t rsa -C "windows-ssh@mcnz.com"
+	
+2026-03-17 13:09:33 From JSystems Szkolenia to Everyone:
+	cat /c/Users/labuser/.ssh/id_rsa.pub
+	
+2026-03-17 13:13:11 From JSystems Szkolenia to Everyone:
+	Nazwa: JSystems Szkolenie Host
+	
+2026-03-17 13:13:12 From JSystems Szkolenia to Everyone:
+	https://github.com/settings/ssh/new
+	
+2026-03-17 13:14:56 From JSystems Szkolenia to Everyone:
+	ls ~/.ssh
+	
+2026-03-17 13:15:37 From Łukasz Szaniec to Everyone:
+	$ ls ~/.ssh
+	ls: cannot access '/c/Users/labuser/.ssh': No such file or directory
+	
+2026-03-17 13:16:09 From JSystems Szkolenia to Everyone:
+	cat ~/.ssh/id_rsa.pub
+	
+2026-03-17 13:16:44 From Łukasz Szaniec to Everyone:
+	Your public key has been saved in id_rsa.pub.pub
+	The key fingerprint is:
+	SHA256:B+twomrchoOa7VQR83eOU+USxWPKaqcPQtr6dkoW8J0 tgk2255@gmail.com
+	The key's randomart image is:
+	
+2026-03-17 13:18:28 From JSystems Szkolenia to Everyone:
+	ssh-keygen -o -t rsa -C "lucas.matuszewski@gmail.com"
+	
+2026-03-17 13:23:10 From JSystems Szkolenia to Everyone:
+	git clone git@github.com:EdukeyTeam/AI-Programming-Course-JSystem-03-2026.git
+	
+2026-03-17 13:33:04 From JSystems Szkolenia to Everyone:
+	Acceptance criteria:1) Kontener PostgreSQL działa2) Znamy host, port, user, password, db name3) Potrafimy połączyć się do bazy4) Potrafimy wykonać proste CREATE TABLE i SELECT5) Mamy zapisane komendy lub docker-compose / compose.yaml do ponownego uruchomienia
+	
+2026-03-17 13:37:01 From JSystems Szkolenia to Everyone:
+	Prompt startowy do agenta:Chcę uruchomić lokalny PostgreSQL do projektu szkoleniowego.Założenia:- pracuję ostrożnie, z ręcznymi approvalami,- preferuję Docker,- chcę rozwiązanie powtarzalne i proste do zrozumienia,- nie zakładaj, że mam wszystko idealnie skonfigurowane,- zanim coś zainstalujesz lub uruchomisz, sprawdź obecny stan środowiska.Twoje zadanie:1) sprawdź, czy mam Docker i jakie mam możliwości,2) zaproponuj najprostszy bezpieczny setup PostgreSQL dla lokalnego developmentu,3) przygotuj plan krok po kroku,4) wykonuj kroki dopiero po mojej akceptacji,5) skonfiguruj bazę w ramach pliku docker compose.yaml w naszym projekcie aby możliwe było jej automatyczne uruchamianie dla wszystkich członków zespołu oraz zapisz credentials w pliku .env6)  na końcu zweryfikuj połączenie i pokaż minimalny test SQL.Na końcu wypisz:- co zostało zrobione,- jakie dane dostępowe ustawiono,- jak zatrzymać i uruchomić bazę ponownie,- jakie są kolejne sensowne kroki.
+	
+2026-03-17 13:37:08 From JSystems Szkolenia to Everyone:
+	Acceptance criteria:1) Kontener PostgreSQL działa2) Znamy host, port, user, password, db name3) Potrafimy połączyć się do bazy4) Potrafimy wykonać proste CREATE TABLE i SELECT5) Mamy zapisane komendy lub docker-compose / compose.yaml do ponownego uruchomienia
+	
+2026-03-17 13:39:59 From Łukasz Szaniec to Everyone:
+	pulic key dodałem do gita, udało się
+	
+2026-03-17 13:43:00 From JSystems Szkolenia to Everyone:
+	Przeanalizuj zadanie, zadaj mi teraz minimum 5 pytań o wszystkie detale i informacje któych może Ci brakować lub które są niejasne, zanim przejdziesz do pracy.
+	
+2026-03-17 14:29:29 From Michal to Everyone:
+	Użyć nieoficjalnego obrazu PostgreSQL dla Windows containers
+	Przykład: sokigo/postgresql-windows
+	To może działać na Twoim Windows Server 2022
+	Minusy: to nie jest oficjalny obraz postgres, więc większe ryzyko utrzymaniowe
+	
+2026-03-17 14:35:34 From Łukasz Szaniec to Everyone:
+	services:
+	  postgres:
+	    image: stellirin/postgres-windows:latest
+	    container_name: ai-course-postgres
+	    isolation: hyperv
+	    entrypoint:
+	      - cmd
+	    command:
+	      - /S
+	      - /C
+	      - C:\startup\bootstrap.cmd
+	    restart: unless-stopped
+	    environment:
+	      PGDATA: C:\pgsql\data
+	      POSTGRES_USER: app_user
+	      POSTGRES_PASSWORD: app_password_123
+	      POSTGRES_DB: sample_app
+	    ports:
+	      - "5433:5432"
+	    volumes:
+	      - postgres_data:C:\pgsql\data
+	      - .\docker\postgres\init:C:\docker-entrypoint-initdb.d:ro
+	      - .\docker\postgres\scripts:C:\startup:ro
+	
+	volumes:
+	  postgres_data:
+	
+2026-03-17 14:37:24 From Łukasz Szaniec to Everyone:
+	W repo dodałem działającą konfigurację PostgreSQL pod Windows Docker i
+	  uruchomiłem ją z compose.yaml. Kluczowe pliki to compose.yaml, docker/
+	  postgres/scripts/bootstrap.cmd i docker/postgres/init/001-init.sql. Dodałem
+	  też .tools/ do .gitignore, bo w repo lokalnie pobrałem standalone docker-
+	  compose.exe, którego użyłem do startu.
+	
+	  Parametry połączenia są stałe:
+	  host=127.0.0.1, port=5433, user=app_user, password=app_password_123,
+	  database=sample_app.
+	
+	  Uruchomienie z repo:
+	
+	  .\.tools\docker-compose.exe -f compose.yaml up -d
+	
+	  Weryfikacja zakończyła się powodzeniem. Port z hosta odpowiadał
+	  (TcpTestSucceeded=True), a minimalny test SQL zwrócił:
+	
+	  SELECT current_database() AS db, current_user AS usr, note FROM
+	  public.test_connection;
+	
+	  Wynik:
+	
+	  sample_app | app_user | postgres is ready
+	
+2026-03-17 14:45:44 From JSystems Szkolenia to Everyone:
+	https://github.com/LucasMatuszewski/AI-Programming-Course-JSystem-03-2026/blob/master/materials/scripts/day-2-full-script.md#12301300--ai-research--prd-pod-nasze-mvp
+	
+2026-03-17 14:46:52 From JSystems Szkolenia to Everyone:
+	Prompt do agenta – PRD:Jesteś product managerem i analitykiem systemowym.Przygotuj PRD dla szkoleniowego MVP:"Loan Decision Copilot" dla środowiska bankowego.Kontekst:- aplikacja działa w formie czatu,- agent wykrywa intencję złożenia wniosku o pożyczkę,- agent pokazuje dynamiczny formularz,- backend pobiera dane klienta i dane finansowe z PostgreSQL,- system oblicza wynik i zwraca rekomendację z uzasadnieniem,- decyzja i działania muszą zostawić audit trail.Przygotuj:1) problem statement,2) 2-3 persony,3) 8-10 user stories,4) mierzalne acceptance criteria,5) ograniczenia niefunkcjonalne,6) out of scope,7) ryzyka i założenia dla danych demo.Pisz po polsku, konkretnie, bez marketingu.
+	
+2026-03-17 14:48:57 From JSystems Szkolenia to Everyone:
+	https://www.promptcowboy.ai/
+	
+2026-03-17 14:52:31 From JSystems Szkolenia to Everyone:
+	Prompt do agenta – PRD:Jesteś product managerem i analitykiem systemowym.Przygotuj PRD dla szkoleniowego MVP:"Loan Decision Copilot" dla środowiska bankowego.Kontekst:- aplikacja działa w formie czatu,- agent wykrywa intencję złożenia wniosku o pożyczkę,- agent pokazuje dynamiczny formularz,- backend pobiera dane klienta i dane finansowe z PostgreSQL,- system oblicza wynik i zwraca rekomendację z uzasadnieniem,- decyzja i działania muszą zostawić audit trail.Przygotuj:1) problem statement,2) 2-3 persony,3) 8-10 user stories,4) mierzalne acceptance criteria,5) ograniczenia niefunkcjonalne,6) out of scope,7) ryzyka i założenia dla danych demo.Pisz po polsku, konkretnie, bez marketingu.Sekcje PRD, które dziś chcemy mieć:1) Problem statement2) Użytkownicy / persony3) Główne flow4) User stories5) Acceptance criteria6) Ograniczenia i ryzyka7) Zakres MVP / out of scope8) Założenia dla danych demo
+	
+2026-03-17 14:52:32 From JSystems Szkolenia to Everyone:
+	Będzie potem osobny dokument ADR zawierający Architekturę i opis technologii wiec skup się tutaj na funkcjonalnościach i stronie działania i UX i UI aplikacji.
+	
+2026-03-17 15:00:59 From JSystems Szkolenia to Everyone:
+	git config --global user.email "you@example.com"git config --global user.name "Your Name"
+	
+2026-03-17 15:04:04 From Karol to Everyone:
+	compose.yaml
+	
+2026-03-17 15:04:56 From JSystems Szkolenia to Everyone:
+	https://github.com/EdukeyTeam/AI-Programming-Course-JSystem-03-2026/blob/master/prompts/day-2/PRD-generation-prompt-promtcowboy.md Przykładowy prompt od Prompt Cowboy
+	
+2026-03-17 15:06:00 From Łukasz Szaniec to Everyone:
+	ja już muszę kończyć na dzisiaj, cześć, do jutra
+	
+2026-03-17 15:06:12 From Łukasz Szaniec to Everyone:
+	spoko
+	
